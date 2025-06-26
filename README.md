@@ -1,2 +1,2 @@
 # cq-guide
-Arbres décisionnels 
+Decision Trees 
