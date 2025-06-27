@@ -1,1 +1,86 @@
 audio_ingest_decision_tree
+
+@startuml
+title Audio Ingest Decision Tree – v2.0
+
+start
+
+:'Was the source delivered on a **physical carrier**?';
+if (yes) then (Yes)
+  :Identify carrier type (DAT, CD-R, MiniDisc, HDD, etc.);
+  :Assess physical condition;
+  if (Playback / read hardware available?) then (Yes)
+    :Create bit-identical disk image or file transfer;
+    :Quarantine copy ➜ compute SHA-256;
+    if (Checksum verified?) then (Yes)
+      --> DigitalEval
+    else (No)
+      :Reject – fixity failure;
+      stop
+    endif
+  else (No)
+    :Flag “Inaccessible – hardware required”;
+    stop
+  endif
+else (No)
+  :Receive digital file (network upload, cloud link, etc.);
+  :Quarantine copy ➜ compute SHA-256;
+  if (Checksum verified?) then (Yes)
+    --> DigitalEval
+  else (No)
+    :Reject – fixity failure;
+    stop
+  endif
+endif
+
+partition "DIGITAL FILE EVALUATION" as DigitalEval {
+
+  :Determine file format;
+  if (WAV / BWF / AIFF?) then (Yes)
+    :Validate sample-rate & bit-depth;
+    if (Meets ≥48 kHz / 24-bit?) then (Yes)
+      :Check **BWF metadata** chunk;
+      if (Metadata present?) then (Yes)
+        :Store as *Preservation Master*;
+      else (No)
+        :Flag for metadata enrichment;
+        :Store as *Preservation Master*;
+      endif
+    else (No)
+      :Normalize to 48 kHz / 24-bit BWF;
+      :Document PREMIS ‘normalization’ event;
+      :Store as *Preservation Master*;
+    endif
+  else (No)
+    :Is format **lossless & convertible** (FLAC, ALAC)?;
+    if (Yes) then (Yes)
+      :Transcode to BWF 48 kHz / 24-bit with logs;
+      :Store as *Preservation Master*;
+    else (No)
+      :Is format **lossy** (MP3, AAC)?;
+      if (Yes) then (Yes)
+        :Flag “Access-copy-only – request lossless source”;
+        stop
+      else (No)
+        :Flag “Unknown / research & migrate”;
+        stop
+      endif
+    endif
+  endif
+
+  '--- parallel descriptive tasks ------------------------------------------
+  fork
+    :Extract / ingest side-car docs (cue sheets, logs, photos);
+  fork again
+    :Verify rights & permissions;
+  fork again
+    :Record software & hardware dependencies (DAW, plug-ins);
+  endfork
+  '--------------------------------------------------------------------------
+
+  :Package masters (BagIt + PREMIS + checksums);
+  :Close ingest – schedule refresh fixity;
+}
+
+stop
+@enduml
