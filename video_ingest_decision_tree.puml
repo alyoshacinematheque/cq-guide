@@ -1,1 +1,42 @@
 video_ingest_decision_tree
+
+@startuml
+skinparam monochrome true
+start
+
+:Input = Born-Digital Video;
+:Identify Physical Carrier Presence;
+
+if ("Is content on a physical carrier?\n(Tape, Disc, Memory Card, SSD)"?) then (Yes)
+  :Transfer bitstream as-is to file;
+  :Validate transfer (size, checksum if available);
+  :Wrap in BagIt package;
+  :Generate metadata;
+  :Store in repository;
+  stop
+else (No - already file-based)
+  :Run MediaInfo/ffprobe;
+  if ("Does wrapper & codec match approved profile?\n(FFV1/MKV, ProRes/MOV, XDCAM/MXF, etc.)"?) then (Yes)
+    :Retain file as-is;
+    :Wrap in BagIt package;
+    :Generate metadata;
+    :Store in repository;
+    stop
+  else (No - not compliant)
+    if ("Is rewrapping sufficient?"?) then (Yes)
+      :Rewrap file only (no re-encode);
+      :Validate new container;
+      :Wrap in BagIt package;
+      :Generate metadata;
+      :Store in repository;
+      stop
+    else (Transcode required)
+      :Transcode to lossless preservation format (e.g., FFV1/MKV);
+      :Wrap in BagIt package;
+      :Generate metadata;
+      :Store in repository;
+      stop
+    endif
+  endif
+endif
+@enduml
