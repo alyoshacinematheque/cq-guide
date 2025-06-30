@@ -9,4 +9,4 @@ To maintain version-controlled logic diagrams supporting media ingest and preser
 To provide version control for the evolving written guide.
 
 Contents:
-Each .puml file in this repository represents a standalone decision tree focused on a specific media type (audio, video, audiovisual, or more complex works). The written guide is broken into modular documents—one per section—to enable precise tracking and revision.
+Each .puml file in this repository represents a standalone decision tree focused on a specific media type (audio, video, or complex works). The written guide is broken into modular documents—one per section—to enable precise tracking and revision.
