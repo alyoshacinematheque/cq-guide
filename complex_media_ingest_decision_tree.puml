@@ -1,1 +1,98 @@
 complex_media_ingest_decision_tree
+
+@startuml
+skinparam monochrome true
+start
+
+:Input = Complex Media Work;
+:Assess whether media is more than linear playback;
+
+if ("Is this more than simple audio/video playback?"?) then (Yes)
+  :Continue with complex media ingest;
+else (No)
+  :Use simple ingest workflow;
+  stop
+endif
+
+:Determine primary media type;
+
+if ("Is it time-based,\ninstallation-based, or both?"?) then (Time-based)
+  :Check for interactivity or runtime execution;
+elseif (Installation-based)
+  :Check spatial & hardware needs;
+else (Both)
+  :Evaluate all branches;
+endif
+
+:Evaluate for software or control systems;
+
+if ("Does it include software, generative elements, or interactivity?"?) then (Yes)
+  :Identify software environment;
+
+  if ("Is it runtime-based?\n(TouchDesigner, Unity, Max/MSP, etc.)"?) then (Yes)
+    :Capture version, OS, GPU, runtime dependencies;
+    if ("Is source code or project file available?"?) then (Yes)
+      :Preserve config and source;
+    else (No)
+      :Preserve runtime via disk image or VM;
+    endif
+  endif
+
+  if ("Is software proprietary or licensed?"?) then (Yes)
+    :Document license type and validity;
+  endif
+
+else (No)
+  :Proceed with media-only ingestion;
+endif
+
+:Evaluate hardware dependencies;
+
+if ("Does the work require custom or dedicated hardware?"?) then (Yes)
+  :Photograph components;
+  :Diagram wiring, control signals;
+  if ("Are parts replaceable or simulatable?"?) then (Yes)
+    :Document acceptable substitutions;
+  else (No)
+    :Flag for potential obsolescence;
+  endif
+endif
+
+:Evaluate spatial / environmental needs;
+
+if ("Is spatial configuration essential\n(e.g. projection, speakers)?"?) then (Yes)
+  :Document geometry, placement, calibration files;
+endif
+
+if ("Does the work include spatial audio?"?) then (Yes)
+  :Preserve multichannel stems;
+  :Map channel layout and routing;
+endif
+
+:Evaluate activation and performance;
+
+if ("Is the work performed live or cue-based?"?) then (Yes)
+  :Collect tech rider, cue sheets, interaction logic;
+endif
+
+if ("Can the work be re-performed or delegated?"?) then (Yes)
+  :Document conditions and performer role;
+else (No)
+  :Preserve as fixed performance documentation;
+endif
+
+:Check artist intent;
+
+if ("Is the work open to reinterpretation or simulation?"?) then (Yes)
+  :Record flexibility parameters;
+else (No)
+  :Document fixed constraints;
+endif
+
+:Finalize ingest;
+
+:Package all components;
+:Include media, software, config, spatial data, artist intent;
+:Store as BagIt or OCFL object;
+stop
+@enduml
