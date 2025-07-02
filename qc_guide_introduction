@@ -12,6 +12,11 @@ Born-digital audiovisual works encompass a wide and growing range of materials, 
 1.4 Why Open Source? Principles of Transparency and Sustainability
 This guide prioritizes the use of free and open-source software (FOSS) whenever feasible. This decision is grounded in a commitment to transparency, long-term accessibility, and institutional autonomy. Open-source tools are auditable, community-supported, and adaptable to changing technological environments. They reduce dependency on proprietary platforms whose availability or licensing terms may change unpredictably over time. For organizations operating with limited budgets or diverse technical infrastructures, open-source solutions offer flexibility, interoperability, and a clear path to sustainability. By foregrounding FOSS in the workflows described herein, we aim to support a preservation model that is both robust and replicable.
 
-1.5 Methodology Overview 
-The recommendations in this document are grounded in eight concrete case studies contributed by the four partner institutions. Each scenario traces a real preservation challenge, documents the steps taken, and distills key lessons into actionable conclusions. 
+1.5 Methodology Overview
+This guide is structured around a microservice approach to digital preservation, favoring small, modular tools and workflows that can be combined, swapped, or extended as needed. Rather than prescribing a single end-to-end system, we emphasize adaptable, interoperable components that respond to specific challenges in context. This approach supports incremental implementation, technical diversity, and long-term resilience.
 
+We draw on the principles of More Product, Less Process (MPLP) to prioritize usable outputs over exhaustive process documentation. Our goal is not to formalize every edge case but to deliver practical, actionable guidance that institutions can implement and refine over time.
+
+Finally, we privilege the use of free and open-source software (FOSS) wherever possible. Open tools foster transparency, sustainability, and institutional autonomy. They allow workflows to be audited, shared, and improved across contexts without the constraints of vendor lock-in or licensing uncertainty.
+
+The recommendations in this document are grounded in eight concrete case studies contributed by the four partner institutions. Each scenario traces a real preservation challenge, documents the steps taken, and distills key lessons into actionable conclusions.
