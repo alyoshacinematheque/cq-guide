@@ -9,5 +9,8 @@ Developed through a collaborative effort by the Cinémathèque québécoise, Bib
 1.3 Preservation of Born-Digital Audiovisual Artworks
 Born-digital audiovisual works encompass a wide and growing range of materials, from digital camera originals and feature films edited in nonlinear systems to experimental video, performance documentation, and immersive installations built entirely within software environments. While the term born digital might evoke contemporary formats (ProRes files, 4K video, proprietary camera originals) it also includes early computer graphics artworks, CD-ROMs, interactive games, net-based experiments, and emerging generative image systems. This guide draws on and synthesizes multiple institutional perspectives to support sustainable, context-sensitive strategies for preserving complex digital artworks.
 
-1.4 Methodology Overview 
+1.4 Why Open Source? Principles of Transparency and Sustainability
+This guide prioritizes the use of free and open-source software (FOSS) whenever feasible. This decision is grounded in a commitment to transparency, long-term accessibility, and institutional autonomy. Open-source tools are auditable, community-supported, and adaptable to changing technological environments. They reduce dependency on proprietary platforms whose availability or licensing terms may change unpredictably over time. For organizations operating with limited budgets or diverse technical infrastructures, open-source solutions offer flexibility, interoperability, and a clear path to sustainability. By foregrounding FOSS in the workflows described herein, we aim to support a preservation model that is both robust and replicable.
+
+1.5 Methodology Overview 
 The recommendations in this document are grounded in eight concrete case studies contributed by the four partner institutions. Each scenario traces a real preservation challenge, documents the steps taken, and distills key lessons into actionable conclusions. 
