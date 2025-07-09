@@ -1,0 +1,27 @@
+2.3 Société des arts technologiques (SAT)
+
+2.3.1 Existing Infrastructure
+The Société des arts technologiques (SAT) is a leading non-profit digital arts centre in Montreal, established in 1996 and internationally recognized for its pioneering work in immersive, collective, and interactive art experiences. SAT’s activities are anchored in its unique physical infrastructure, which includes the iconic Satosphère—a permanent 360-degree dome for immersive audiovisual presentations—alongside a digital research laboratory, dedicated artist residency spaces, and versatile event venues. The organization’s technical backbone consists of a centralized IT infrastructure managed by an in-house team, providing server capacity, local storage, and basic backup services. Network security and system reliability are overseen by a network administrator, while audiovisual technicians support the conversion, integration, and documentation of media related to both internal projects and external collaborations.
+
+SAT’s commitment to open-source culture is reflected in its development of more than fifty open-source software tools, some of which facilitate aspects of digital creation, management, or display. The organization maintains a Drupal-based database that, as of April 2024, documents over 2,000 archival objects—including posters, flyers, books, physical objects, AV works, and event documentation—spanning more than twenty-five years of activity. Looking to the future, SAT has articulated a strategic vision to establish a Centre for Digital Cultural Heritage Preservation. This vision is supported by a three-year IT plan, slated to begin in 2026, with the goal of implementing a professional-grade digital preservation infrastructure and obtaining BAnQ digital archive certification. However, as of mid-2025, SAT does not yet have a dedicated, OAIS-compliant preservation system, nor formal protocols for scalable digital ingest, long-term storage, or disaster recovery. There is also an absence of standardized packaging, file normalization, or documented preservation policy, underscoring the transitional nature of SAT’s current infrastructure as it prepares to scale up its preservation capacity.
+
+2.3.2 Current Practices and Challenges
+SAT’s current archival practice is defined by agility and experimentation, but also by a lack of formalization. Archival workflows are managed by a small core team embedded in the production department, with expertise drawn from IT, audiovisual, and research staff as needed. Item-level documentation is ongoing in the Drupal database, capturing basic descriptive data for a diverse array of materials—ranging from audiovisual works and immersive installations to code and event records. Media ingest and migration are handled on a project-driven basis by audiovisual technicians, often in response to immediate production or exhibition needs. While SAT’s approach benefits from its cross-disciplinary culture and openness to technical innovation, it currently lacks systematic metadata management, and there is not yet adoption of widely recognized metadata standards such as PBCore or PREMIS. Preservation actions—such as backup, file verification, and documentation of interventions—are performed as resources allow, but there is little process automation or consistent fixity checking.
+
+In this context, SAT faces a number of significant challenges as it seeks to mature its digital preservation program:
+
+Limited staffing and capacity: The team responsible for archival and preservation activities is small and stretched across multiple priorities, with no dedicated digital preservation specialist.
+
+Legacy backlog: Many years’ worth of digital artworks and related materials, including complex immersive and software-based works, remain partially documented or unprocessed according to preservation standards.
+
+Format and complexity: The diversity and technical complexity of SAT’s holdings—especially immersive, generative, and code-based works—present unique preservation challenges, with no current format normalization policy for preservation masters.
+
+Infrastructure gaps: Existing IT and storage systems are sufficient for access and short-term needs but fall short of what is required for long-term digital preservation and risk mitigation.
+
+Policy and certification: SAT aspires to BAnQ certification, but currently lacks the written policies, workflows, and internal documentation required to meet such standards.
+
+Sustainability and strategic planning: Ensuring ongoing funding, staffing, and technical capacity to build and maintain a robust preservation infrastructure remains an open challenge.
+
+Interoperability: There is a strong desire to align with broader best practices, but limited resources for standards adoption, process documentation, and integration with wider preservation networks.
+
+Despite these challenges, SAT’s ambition to establish a Centre for Digital Cultural Heritage Preservation, its strong open-source ethos, and its history of technological innovation provide a foundation for growth. The collaborative project led by the Cinémathèque québécoise represents a key opportunity for SAT to both contribute its unique expertise and accelerate the formalization and scaling of its own digital preservation program.
