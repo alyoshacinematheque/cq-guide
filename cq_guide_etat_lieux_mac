@@ -1,16 +1,15 @@
 2.3 Musée d’art contemporain de Montréal (MAC)
-
 2.3.1 Existing Infrastructure
-The Musée d’art contemporain de Montréal (MAC) is a major public institution dedicated to contemporary art, founded in 1964 as the first museum of its kind in Canada.1 It is publicly funded and situated in Montreal’s Quartier des spectacles, serving as a prominent venue for the collection, exhibition, and interpretation of contemporary art in Québec and beyond. Since the mid-2010s, MAC has strategically prioritized digital initiatives, in alignment with the Plan culturel numérique du Québec (PCNQ), to extend access, improve documentation, and support the long-term preservation of its collections.2
+The Musée d’art contemporain de Montréal (MAC) is a major public institution dedicated to contemporary art, founded in 1964 as the first museum of its kind in Canada.¹ It is publicly funded and situated in Montreal’s Quartier des spectacles, serving as a prominent venue for the collection, exhibition, and interpretation of contemporary art in Québec and beyond. Since the mid-2010s, MAC has strategically prioritized digital initiatives, in alignment with the Plan culturel numérique du Québec (PCNQ), to extend access, improve documentation, and support the long-term preservation of its collections.²
 
-At the infrastructure level, MAC’s digital preservation efforts are centered around a comprehensive digitization and collections management project launched under the PCNQ framework. This initiative includes the digitization of approximately 1,500 works from the permanent collection, notably 200 video works and some 30 video installations, as well as audiovisual documentation of performances, lectures, and artist talks.3 The museum has also undertaken the digitization and reprocessing of key artist archives, such as the 10,000-item fonds of Paul-Émile Borduas.4
+At the infrastructure level, MAC’s digital preservation efforts are centered around a comprehensive digitization and collections management project launched under the PCNQ framework. This initiative includes the digitization of approximately 1,500 works from the permanent collection, notably 200 video works and some 30 video installations, as well as audiovisual documentation of performances, lectures, and artist talks.³ The museum has also undertaken the digitization and reprocessing of key artist archives, such as the 10,000-item fonds of Paul-Émile Borduas.⁴
 
-These digitized assets are being integrated into a centralized collections database, replacing the legacy Media Centre system. This system supports metadata management, internal viewing access, and searchability of audiovisual content and publication materials.5 In parallel, the museum has invested in updating its internal IT infrastructure, including backup and replication mechanisms, digital rights management tools, and digitization equipment, to sustain its growing digital collection.6
+These digitized assets are being integrated into a centralized collections database, replacing the legacy Media Centre system. This system supports metadata management, internal viewing access, and searchability of audiovisual content and publication materials.⁵ In parallel, the museum has invested in updating its internal IT infrastructure, including backup and replication mechanisms, digital rights management tools, and digitization equipment, to sustain its growing digital collection.⁶
 
 While MAC has made significant investments in digitization and internal content management, it has not publicly documented the adoption of a formal digital preservation framework such as OAIS, nor are there indications of consistent use of metadata schemas like PBCore or PREMIS. Likewise, long-term digital storage protocols, fixity verification procedures, and formalized ingest workflows have not been published. As such, MAC’s infrastructure supports access and digitization, but the presence of a complete digital preservation system remains to be confirmed.
 
 2.3.2 Current Practices and Challenges
-MAC’s current digital preservation practice is largely driven by its participation in provincial initiatives and internal projects tied to digitization and access. The collections management system serves as the central node for digital object storage and descriptive metadata, and MAC’s internal digitization priorities are oriented toward both preservation and educational use.7 Its digital strategy places a strong emphasis on making collections visible across multiple platforms—including its website, provincial cultural directories, and educational microsites.8
+MAC’s current digital preservation practice is largely driven by its participation in provincial initiatives and internal projects tied to digitization and access. The collections management system serves as the central node for digital object storage and descriptive metadata, and MAC’s internal digitization priorities are oriented toward both preservation and educational use.⁷ Its digital strategy places a strong emphasis on making collections visible across multiple platforms—including its website, provincial cultural directories, and educational microsites.⁸
 
 However, challenges persist. The integration of born-digital audiovisual works—including web-based art and complex installations—into long-term preservation pipelines remains underdeveloped in available documentation. Metadata practices have been modernized for collections access, but it is unclear whether technical and preservation metadata are being routinely captured for complex media works. Similarly, while digitized content is being incorporated into the collection database, the lack of documentation around ingest procedures, file normalization, or fixity checks suggests a gap in formal preservation protocols.
 
@@ -22,27 +21,19 @@ Metadata limitations: Use of a centralized database improves access, but adoptio
 
 Born-digital complexity: Installation, interactive, and web-based works present complex challenges for preservation that are not addressed in MAC’s current published materials.
 
-Rights management: A digital rights policy has been adopted, but the long-term management of rights for complex digital assets is not fully detailed.9
+Rights management: A digital rights policy has been adopted, but the long-term management of rights for complex digital assets is not fully detailed.⁹
 
 Staffing and strategy: While professional development and internal training are part of MAC’s digital strategy, the degree of staff specialization in digital preservation remains unspecified.
 
 Despite these challenges, MAC’s deep institutional experience, investment in digitization infrastructure, and engagement with provincial cultural policies position it to expand and formalize its digital preservation capacity. Continued participation in sector-wide initiatives and alignment with best practices could further strengthen MAC’s ability to steward its growing portfolio of time-based and digital artworks.
 
 Footnotes
-Stratégie numérique 2015–2018 – Musée d’art contemporain de Montréal, p. 1.
-
-Ibid., pp. 1–2.
-
-Major Digital Projects – MAC Montréal, p. 1.
-
-Ibid., p. 2.
-
-Ibid., p. 2.
-
-Stratégie numérique 2015–2018, p. 4.
-
-Ibid., pp. 2–4.
-
-Diagramme de l’offre numérique – MAC, 2017.
-
-Major Digital Projects – MAC Montréal, p. 3.
+¹ Stratégie numérique 2015–2018 – Musée d’art contemporain de Montréal, p. 1.
+² Ibid., pp. 1–2.
+³ Major Digital Projects – MAC Montréal, p. 1.
+⁴ Ibid., p. 2.
+⁵ Ibid., p. 2.
+⁶ Stratégie numérique 2015–2018, p. 4.
+⁷ Ibid., pp. 2–4.
+⁸ Diagramme de l’offre numérique – MAC, 2017.
+⁹ Major Digital Projects – MAC Montréal, p. 3.
