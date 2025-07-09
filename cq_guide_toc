@@ -1,55 +1,60 @@
+Table of Contents
 1. Introduction
   1.1 Purpose of the Guide
   1.2 Project Background and Partner Institutions
   1.3 Preservation of Born-Digital Audiovisual Artworks
   1.4 Methodology Overview
 
-État des lieux: Current State of Digital AV Preservation ............................................. 6
-  2.1 Cinémathèque québécoise (CQ)
-    2.1.1 Existing Infrastructure ....................................................................................................... 6
-    2.1.2 Current Practices and Challenges ................................................................................ 7
-  2.2 BAnQ
-    2.2.1 Existing Infrastructure ....................................................................................................... 7
-    2.2.2 Current Practices and Challenges ................................................................................ 8
-  2.3 MAC
-    2.3.1 Existing Infrastructure ....................................................................................................... 8
-    2.3.2 Current Practices and Challenges ................................................................................ 9
-  2.4 SAT
-    2.4.1 Existing Infrastructure ....................................................................................................... 9
-    2.4.2 Current Practices and Challenges ................................................................................ 10
-  2.5 Cross-Institutional Observations ............................................................................................ 11
+2. Context and Positioning of the Project
+  2.1 International and National Initiatives
+  2.2 Scope of the Current Collaboration
 
-Case Studies ....................................................................................................................................... 12
-  Case Study 1 – Cinémathèque québécoise (CQ) .................................................................... 12
-  • Context and Challenge  
-  • Goals and Constraints  
-  • Protocol or Solution Developed  
-  • Implementation and Results  
-  • Lessons Learned  
-  Case Study 2 – Cinémathèque québécoise (CQ) .................................................................... 14
-  Case Study 3 – BAnQ ........................................................................................................................ 16
-  Case Study 4 – BAnQ ........................................................................................................................ 18
-  Case Study 5 – MAC .......................................................................................................................... 20
-  Case Study 6 – MAC .......................................................................................................................... 22
-  Case Study 7 – SAT ........................................................................................................................... 24
-  Case Study 8 – SAT ........................................................................................................................... 26
+3. États des lieux: Current State of Digital AV Preservation
+  3.1 Cinémathèque québécoise (CQ)
+    3.1.1 Existing Infrastructure
+    3.1.2 Current Practices and Challenges
+  3.2 BAnQ
+    3.2.1 Existing Infrastructure
+    3.2.2 Current Practices and Challenges
+  3.3 MAC
+    3.3.1 Existing Infrastructure
+    3.3.2 Current Practices and Challenges
+  3.4 SAT
+    3.4.1 Existing Infrastructure
+    3.4.2 Current Practices and Challenges
+  3.5 Cross-Institutional Observations
 
-Best Practices ..................................................................................................................................... 28
-  4.1 Overview of Digital Preservation Principles ...................................................................... 28
-  4.2 Recommended File Formats and Wrappers ..................................................................... 29
-  4.3 Metadata and Documentation Standards ............................................................................ 30
-  4.4 Storage and Redundancy Strategies ..................................................................................... 31
-  4.5 File Integrity and Fixity Monitoring ....................................................................................... 32
-  4.6 Institutional Coordination and Knowledge Transfer ...................................................... 33
+4. Case Studies
+  Case Study 1 – Cinémathèque québécoise (CQ)
+  • Context and Challenge
+  • Goals and Constraints
+  • Protocol or Solution Developed
+  • Implementation and Results
+  • Lessons Learned
+  Case Study 2 – Cinémathèque québécoise (CQ)
+  Case Study 3 – BAnQ
+  Case Study 4 – BAnQ
+  Case Study 5 – MAC
+  Case Study 6 – MAC
+  Case Study 7 – SAT
+  Case Study 8 – SAT
 
-Decision Tree ...................................................................................................................................... 34
-  5.1 How to Use This Tool .................................................................................................................. 34
-  5.2 Decision Tree Diagram ............................................................................................................... 35
+5. Best Practices
+  5.1 Overview of Digital Preservation Principles
+  5.2 Recommended File Formats and Wrappers
+  5.3 Metadata and Documentation Standards
+  5.4 Storage and Redundancy Strategies
+  5.5 File Integrity and Fixity Monitoring
+  5.6 Institutional Coordination and Knowledge Transfer
 
-Toolbox: Tools and Resources .................................................................................................... 36
-  6.1 Open Source Tools ....................................................................................................................... 36
-  6.2 Commercial Solutions (Optional) ........................................................................................... 37
-  6.3 Formats and Codecs Quick Reference .................................................................................. 38
-  6.4 Sample Workflows and Script Examples ............................................................................ 39
+6. Decision Tree
+  6.1 How to Use This Tool
+  6.2 Decision Tree Diagram
 
-Bibliographic References and Further Reading ................................................................... 40
+7. Toolbox: Tools and Resources
+  7.1 Open Source Tools
+  7.2 Commercial Solutions (Optional)
+  7.3 Formats and Codecs Quick Reference
+  7.4 Sample Workflows and Script Examples
+
+8. Bibliographic References and Further Reading
