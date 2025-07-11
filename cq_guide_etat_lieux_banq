@@ -1,0 +1,29 @@
+3.2 Bibliothèque et Archives nationales du Québec (BAnQ)
+
+3.2.1 Existing Infrastructure
+
+Bibliothèque et Archives nationales du Québec (BAnQ) is a provincial institution tasked with preserving and providing access to both published and archival heritage in Québec. Formed through a series of mergers (2002 and 2006), BAnQ operates under a dual mandate—library and archival—which shapes the complexity of its digital collections and infrastructure.
+
+BAnQ’s digital preservation infrastructure is distinguished by a harmonized access and preservation system built atop the OAIS reference model. This model supports both digitized and born-digital content, including publications, photographs, periodicals, notarial records, and civil status documents. A single access platform—BAnQ numérique—serves as the public-facing portal, integrating formerly siloed interfaces into one federated search and access system.
+
+On the preservation side, BAnQ transitioned from decentralized storage practices (e.g., DVDs and servers without checksums) to a structured system incorporating checksum verification, BagIt-based packaging, and content-type specific access layers. The architecture allows for parallel conservation and access packages, distinguished using suffixes (_AIP for preservation, _DIP for access) but linked via a shared UUID.
+
+Digitization and ingest workflows are now governed by detailed metadata and structural modeling that accommodate both MARC21 and EAD schemas. Technical metadata is extracted using tools like JHOVE and Tika, and retained in METS or JSON formats. All access and conservation packages are tracked via hierarchical JSON files acting as AICs (Archival Information Collections), facilitating granular ordering and version control.
+
+3.2.2 Current Practices and Challenges
+
+BAnQ has made considerable strides toward a unified and efficient digital preservation model, particularly in reconciling the needs of its archival and library branches. Its access-first orientation, bolstered by integration into BAnQ numérique, has guided the development of a dual-layered infrastructure that promotes both discoverability and secure long-term storage.
+
+Nevertheless, the scale and diversity of BAnQ’s holdings continue to present logistical and technical challenges. For instance, complex born-digital fonds (e.g., the 6TB, 650,000-file deposit of La Patrie) require ongoing re-evaluation of ingest workflows and checksum processes. Similarly, maintaining structural relationships across deeply nested or evolving intellectual entities remains labor-intensive, despite automation gains.
+
+BAnQ’s key challenges include:
+
+Ingest scalability: Some large-scale collections exceed 30GB per package, affecting ingest speed and checksum validation performance.
+
+Structural consistency: Maintaining up-to-date relationships between preservation and access packages across reprocessed fonds requires robust metadata governance.
+
+Format diversity: Born-digital acquisitions include many unsupported or inconsistent formats, despite internal format guides.
+
+Rights-sensitive content: Some archival material requires redaction (e.g., adoption notices), necessitating storage of both original and edited versions.
+
+Despite these challenges, BAnQ’s implementation of an OAIS-based information model, its use of METS and BagIt, and its attention to intellectual granularity place it at the forefront of institutional digital preservation in Québec. Its model emphasizes sustainability, access-readiness, and modularity, and serves as a promising case for other heritage institutions navigating similar hybrid mandates.
