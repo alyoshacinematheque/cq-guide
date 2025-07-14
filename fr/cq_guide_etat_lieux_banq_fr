@@ -1,0 +1,26 @@
+3.2 Bibliothèque et Archives nationales du Québec (BAnQ)
+3.2.1 Infrastructure existante
+Bibliothèque et Archives nationales du Québec (BAnQ) est une institution provinciale chargée de préserver et de diffuser le patrimoine publié et archivistique du Québec. Issue d’un processus de regroupement institutionnel (2002 et 2006), BAnQ opère selon un double mandat—bibliothécaire et archivistique—qui complexifie la nature de ses collections numériques et de son infrastructure technique.
+
+L’infrastructure de préservation numérique de BAnQ se distingue par un système intégré d’accès et de conservation, articulé autour du modèle de référence OAIS. Ce modèle soutient à la fois les contenus numérisés et nativement numériques, incluant les publications, les photographies, les périodiques, les actes notariés et les registres de l’état civil. Une seule plateforme publique—BAnQ numérique—agit comme portail d’accès, intégrant des interfaces auparavant cloisonnées dans un système fédéré de recherche et de consultation.
+
+Côté préservation, BAnQ est passée d’un mode de stockage décentralisé (ex. : DVD, serveurs sans sommes de contrôle) à un système structuré intégrant la vérification de checksums, l’encapsulation en paquets conformes à la spécification BagIt, et des couches d’accès adaptées selon le type de contenu. L’architecture permet la coexistence de paquets de conservation et de diffusion, différenciés par des suffixes (_AIP pour l’archivage, _DIP pour l’accès), mais liés par un identifiant UUID commun.
+
+Les flux de travail de numérisation et d’ingestion sont désormais encadrés par une modélisation descriptive et structurelle compatible avec les schémas MARC21 et EAD. Les métadonnées techniques sont extraites à l’aide d’outils tels que JHOVE et Tika, puis conservées au format METS ou JSON. Tous les paquets d’accès et de conservation sont suivis à l’aide de fichiers hiérarchiques en JSON, jouant le rôle de collections d’information archivistique (AIC), ce qui permet un ordonnancement fin et un contrôle de version rigoureux.
+
+3.2.2 Pratiques actuelles et défis rencontrés
+BAnQ a accompli des progrès considérables vers un modèle unifié et performant de préservation numérique, notamment en conciliant les exigences de ses branches bibliothécaire et archivistique. Son approche orientée vers l’accès, renforcée par l’intégration à BAnQ numérique, a guidé la mise en place d’une infrastructure en double couche qui favorise à la fois la découvrabilité et le stockage sécurisé à long terme.
+
+Cependant, l’ampleur et la diversité des fonds de BAnQ continuent de poser des défis logistiques et techniques. Par exemple, certains ensembles nativement numériques complexes—comme le dépôt de La Patrie (6 To, 650 000 fichiers)—exigent une réévaluation continue des flux d’ingestion et des processus de validation par checksum. De même, le maintien des liens structurels entre entités intellectuelles profondément imbriquées ou évolutives reste une tâche exigeante, malgré les avancées en automatisation.
+
+Parmi les principaux défis identifiés :
+
+Évolutivité de l’ingestion : Certains ensembles dépassent les 30 Go par paquet, ce qui ralentit l’ingestion et complique la validation des sommes de contrôle.
+
+Cohérence structurelle : La gestion des relations entre paquets de préservation et paquets d’accès dans des fonds retraités nécessite une gouvernance métadonnée robuste.
+
+Diversité des formats : Les acquisitions nativement numériques incluent de nombreux formats non pris en charge ou inconsistants, malgré l’existence de guides internes.
+
+Contenus sensibles : Certains documents archivistiques (ex. : avis d’adoption) nécessitent des traitements de caviardage, impliquant le stockage parallèle des versions originales et éditées.
+
+Malgré ces enjeux, l’implantation d’un modèle informationnel basé sur OAIS, l’utilisation de METS et de BagIt, ainsi que l’attention portée à la granularité intellectuelle placent BAnQ à l’avant-garde de la préservation numérique institutionnelle au Québec. Son modèle repose sur la durabilité, la préparation à l’accès et une architecture modulaire—offrant un exemple prometteur pour d’autres institutions patrimoniales confrontées à des mandats hybrides similaires.
