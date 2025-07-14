@@ -1,0 +1,18 @@
+1. Introduction
+1.1 Objectif du guide
+Ce guide propose des recommandations concrètes et actuelles à l’intention des professionnel·le·s œuvrant auprès de collections audiovisuelles nées numériques, que ce soit en milieu muséal, archivistique ou de création. Il vise à accompagner les institutions et les créateur·rice·s dans la résolution de défis réels en matière de préservation, en leur offrant des outils clairs, des solutions applicables et des approches de travail souples et évolutives.
+
+1.2 Contexte du projet et institutions partenaires
+Issu d’une démarche concertée réunissant la Cinémathèque québécoise, Bibliothèque et Archives nationales du Québec, le Musée d’art contemporain de Montréal et la Société des arts technologiques, ce guide répond à un besoin manifeste : celui de développer des solutions partagées, éprouvées sur le terrain, dans un domaine où les pratiques évoluent rapidement. Chaque institution partenaire possède un environnement technique et des priorités qui lui sont propres, ce qui rend le partenariat à la fois diversifié et représentatif du paysage institutionnel.
+
+1.3 Préservation des œuvres audiovisuelles nativement numériques
+Les œuvres audiovisuelles nées numériques couvrent un vaste spectre de formes, en croissance constante : originaux de caméras numériques, longs métrages montés sur systèmes non linéaires, vidéos expérimentales, captations de performances, installations immersives conçues entièrement dans des environnements logiciels. Le terme né numérique renvoie souvent à des formats contemporains (fichiers ProRes, vidéo 4K, formats propriétaires de caméras), mais il inclut aussi des œuvres pionnières en images de synthèse, des CD-ROMs, des jeux interactifs, des projets artistiques en ligne et, plus récemment, des systèmes génératifs d’images. Ce guide rassemble et articule une pluralité de points de vue institutionnels afin de proposer des stratégies de préservation durables, contextuelles et sensibles à la complexité propre à ces œuvres.
+
+1.4 Aperçu de la méthodologie
+Le guide adopte une approche de type microservices en matière de préservation numérique, privilégiant des outils et des flux de travail modulaires, légers et combinables à volonté. Plutôt que d’imposer une solution unique de bout en bout, nous mettons l’accent sur des composantes interopérables, adaptables aux contextes spécifiques, favorisant une mise en œuvre progressive, la diversité technologique et une résilience à long terme.
+
+Nous nous inspirons également des principes de l’approche More Product, Less Process (MPLP), qui valorise la production de résultats tangibles plutôt qu’une documentation exhaustive. L’objectif n’est pas d’anticiper tous les cas de figure, mais d’offrir des recommandations utiles, évolutives et facilement applicables par les institutions, selon leurs réalités.
+
+Dans la mesure du possible, nous privilégions l’usage de logiciels libres et open source (FOSS), par souci de transparence, de pérennité et d’autonomie institutionnelle. Ces outils, auditables, soutenus par des communautés et adaptables à l’évolution technologique, permettent de réduire la dépendance aux plateformes propriétaires et d’assurer que les efforts de préservation demeurent accessibles, transférables et viables à long terme.
+
+Les recommandations formulées dans ce guide s’appuient sur huit études de cas concrètes, fournies par les institutions partenaires. Chacune d’elles décrit un enjeu réel de préservation, détaille les étapes entreprises et en tire des enseignements traduits en actions concrètes.
