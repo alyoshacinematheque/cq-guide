@@ -1,0 +1,10 @@
+cq_guide_project
+Ce dépôt contient le document de guide en cours de rédaction ainsi que le code PlantUML des arbres décisionnels liés à l’ingestion de contenus audio, vidéo et audiovisuels complexes.
+
+Objectif :
+
+Maintenir des diagrammes logiques sous contrôle de version pour soutenir les flux de travail d’ingestion et de préservation des supports pour le projet de la Cinémathèque québécoise (CQ).
+
+Fournir un suivi des versions pour le guide en constante évolution.
+
+Contenu : Chaque fichier .puml présent dans ce dépôt représente un arbre décisionnel autonome, centré sur un type de média spécifique (audio, vidéo ou œuvres complexes). Le guide rédigé est divisé en documents modulaires — un par section — afin de permettre un suivi et une révision précise.
