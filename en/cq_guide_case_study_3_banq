@@ -66,4 +66,35 @@ This framework, while drawn from the specific circumstances of the Cossette fond
 
 By surfacing the underlying logic of strategic retention—not just the outputs—it becomes possible to transform individual case responses into institutional memory, and institutional memory into fieldwide practice.
 
+Strategic Retention Framework (Derived from the Cossette Case)
+1. Clarify Collection Context and Preservation Intent
+Begin by defining the nature and origin of the collection. Is it composed of final products, working files, or both? Is its long-term value primarily evidential, historical, or artistic? What is known (or unknown) about its provenance and production? Clearly articulate the preservation purpose in this context: is the aim comprehensive documentation, representativity, public access, or legal retention?
 
+2. Generate a Technical and Descriptive Inventory
+Extract file-level metadata using appropriate tools for the media types (e.g., MediaInfo, DROID, custom scripts). Compile this data into a structured inventory that includes format types, codecs, durations, file counts, and directory structures. Identify structural issues such as path length violations, excessive folder nesting, or duplications.
+
+3. Define Representativity Criteria
+Representativity is not a fixed metric—it must be determined contextually. In the Cossette case, BAnQ had to decide what constituted a “representative” advertisement across format and content variants. Other institutions might consider:
+
+Breadth across campaigns or time periods
+
+Inclusion of both full and excerpted versions
+
+Technical quality and clarity
+
+Evidence of creative or production variation
+
+4. Establish Appraisal and Triage Logic
+Develop criteria to prioritize, retain, or exclude files. These may include threshold-based filters (e.g., discard files below a certain resolution or bitrate unless unique), clustering methods to identify near-duplicates, or markers such as logos, slates, or embedded timecodes. Create a logic that balances thoroughness with feasibility.
+
+5. Apply Tools to Operationalize Retention Decisions
+Implement scripts or manual workflows that carry out the appraisal logic. This may involve:
+
+Flagging files with identical names but different specifications
+
+Grouping variants for manual selection of a preferred version
+
+Identifying and isolating files that do not meet retention criteria
+
+6. Ensure Traceability and Transparency
+Document all decisions—especially those involving exclusion or de-prioritization. Where feasible, retain metadata snapshots of discarded files (e.g., filename, checksum, technical summary) to preserve evidence of their prior existence. Maintain linkages between retained digital assets and their physical carriers or descriptive records.
