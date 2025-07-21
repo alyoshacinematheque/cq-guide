@@ -1,63 +1,86 @@
 3.2 Case Study 3 – BAnQ
-3.2.1 Context and Challenge
-In 2019, Bibliothèque et Archives nationales du Québec (BAnQ) received a major archival donation from Groupe Cossette Communication, a prominent force in Canada’s advertising industry. The fonds was notable not only for its scale but for its hybrid composition, encompassing analog, textual, iconographic, audiovisual, and digital materials. Among the most substantial components were 25 linear metres of textual records, more than 23,000 photographic documents, approximately 1,000 audiovisual carriers, a single hard drive, and an exceptional total of 6,297 optical discs (CDs and DVDs). From these discs alone, 1.5 million digital files were extracted, with more than 2,200 discs requiring cleaning prior to processing.
 
-The absence of a shared production schema or centralized metadata, coupled with the fact that this was an unprecedented type of donation for BAnQ, presented immediate challenges in terms of triage, appraisal, and preservation. The files consisted largely of final deliverables—commercials and campaign materials—but offered minimal insight into the creative or technical processes behind them. Further complexity arose from the multi-site origin of the records: various Cossette offices contributed content, each with its own workflows, naming conventions, and file structures.
+3.2.1 Context and Challenges
+
+In 2019, Bibliothèque et Archives nationales du Québec (BAnQ) received a major archival donation from Groupe Cossette Communication, a leading player in Canada’s advertising industry. The fonds was remarkable both for its scale and for its hybrid composition, encompassing analog, textual, iconographic, audiovisual, and digital materials. Among the most substantial components were 25 linear metres of textual documents, over 23,000 photographic items, approximately 1,000 audiovisual carriers, a single hard drive, and a set of 6,297 optical discs (CDs and DVDs). From these discs alone, 1.5 million digital files were extracted.
+
+The absence of a unified production schema or centralized metadata system, combined with the fact that this was an unprecedented type of donation for BAnQ, posed immediate challenges in terms of triage, appraisal, and preservation. The files consisted primarily of final deliverables—advertisements and campaign materials—with little information on the creative or technical processes behind them. Additional complexity stemmed from the multi-site origins of the records: several Cossette offices contributed to the donation, each with its own working methods, file naming rules, and folder structures.
 
 3.2.2 Goals and Constraints
-BAnQ established a multifaceted set of goals aimed at regaining intellectual and technical control over the collection. These included ensuring the secure extraction and inventory of digital files; performing selective appraisal to reduce volume while retaining representative material; establishing and maintaining traceability between digital objects and their physical counterparts; and meeting donor expectations related to accessibility, confidentiality, and financial evaluation.
 
-The project was constrained by several material and contextual factors. On the technical side, data extraction from aging optical media proved slow and delicate, with legacy Mac-based formats complicating access and interpretation. The onset of the COVID-19 pandemic further disrupted physical workflows, delaying disc handling and onsite collaboration. Intellectually, the absence of a unifying file architecture or contextual documentation necessitated a case-by-case interpretive approach. In certain instances, access restrictions imposed by the donor further limited options for dissemination and description.
+BAnQ defined a series of goals aimed at regaining intellectual and technical control over the collection. These included ensuring secure extraction and inventory of digital files, conducting selective appraisal to reduce volume while preserving representative content, maintaining traceability between digital objects and their physical carriers, and meeting donor expectations regarding accessibility, confidentiality, and financial evaluation.
+
+The project was constrained by several material and contextual factors. Technically, data extraction from aging optical media was slow and delicate, with legacy formats further complicating access and interpretation. The COVID-19 pandemic also disrupted physical operations, delaying disc handling and in-person collaboration. Intellectually, the absence of coherent file architecture or contextual documentation required a case-by-case interpretive approach. In some instances, access restrictions imposed by the donor limited possibilities for dissemination or description.
 
 3.2.3 Protocol or Solution Developed
-In response, BAnQ adopted an iterative, collaborative methodology grounded in experimentation and internal capacity building. At the outset, staff implemented automated workflows for file extraction, checksum verification, format validation, and metadata capture. A robotic cleaning system was introduced to expedite and standardize disc processing. Custom scripts were developed to flag redundancies, identify corrupted files, and diagnose structural anomalies such as excessive file path lengths or nested folders.
 
-A comprehensive format inventory was compiled, and a set of triage criteria was developed to assess completeness, coherence, and potential research value. These steps were supported by decision trees, documentation protocols, and version control mechanisms. The work was carried out by a cross-functional team spanning the archival processing, digitization, and IT departments, fostering a culture of knowledge exchange and shared problem-solving. The toolkit of internal resources generated through this process became a transferable asset for future hybrid collections.
+To respond to these challenges, BAnQ adopted a collaborative and iterative methodology grounded in experimentation and internal capacity building. From the outset, staff implemented automated processing chains for file extraction, checksum verification, format validation, and metadata capture. A robotic cleaning system was integrated to accelerate and standardize disc processing. Custom scripts were developed to flag redundancies, identify corrupted files, and detect structural anomalies such as excessive path lengths or deep folder nesting.
+
+A format inventory was compiled, and triage criteria were established to evaluate completeness, coherence, and potential research value. These steps were supported by decision trees, documentation protocols, and version control mechanisms. The work was conducted by an interdisciplinary team bringing together archival processing, digitization, and IT services, fostering a culture of knowledge-sharing and collaborative problem-solving. The tools and resources generated in the course of this project became transferable assets for processing other hybrid collections.
+
+Figure 1 illustrates a sample decision tree developed to guide the evaluation and retention of digital files. Each step of the flow—from completeness testing to format review—helps determine whether a file should be retained, converted, or discarded. This type of tool allowed for systematic analysis while accounting for the specific constraints of the collection.
+
+(Fig. 1)
 
 3.2.4 Implementation and Results
-This structured yet adaptive approach yielded tangible results. Tens of thousands of files were processed, and significant reductions in digital volume were achieved through automated and manual appraisal. One project area, identified internally as “Digital Project 18,” initially encompassed nearly 30,000 files and 239 gigabytes of data. Following a targeted triage and reorganization process, this subset was distilled to a smaller, coherent body of representative materials.
 
-Extraction protocols proved robust, even in cases where disc integrity was compromised. File inspection and content analysis allowed the team to prioritize materials of enduring value, while maintaining a clear record of treatments applied. Traceability between physical carriers and digital surrogates was preserved through meticulous documentation. The team also succeeded in integrating archival, technical, and financial workflows, ensuring that items appraised for monetary value could be retained in accordance with legal and institutional requirements.
+This structured yet adaptable approach produced tangible results. Tens of thousands of files were processed, and significant digital volume reductions were achieved through both automated and manual appraisal. One project area, referred to internally as “Digital Project 18,” initially included nearly 30,000 files totaling 239 GB of data. Following targeted triage and reorganization, this subset was reduced to a coherent and representative corpus.
+
+Figure 2 presents the quantitative results of Digital Project 18. It shows the progressive reduction in file count at each step: initial extraction, automated pruning, and systematic pruning. Through these steps, the corpus was reduced from nearly 30,000 files to approximately 3,100—a reduction of 87%. This rationalization produced a more focused, better-described, and more preservable set of materials.
+
+(Fig. 2)
+
+File inspection and content analysis enabled the team to prioritize materials with enduring value while maintaining a clear record of applied treatments. Traceability between physical carriers and their digital surrogates was preserved through rigorous documentation. The team also succeeded in integrating archival, technical, and financial components, ensuring the retention of monetarily appraised items in accordance with legal and institutional requirements.
 
 3.2.5 Strategic Retention as a Transferable Practice
-The Cossette collection case study offers more than a narrative of successful intervention; it provides the foundation for a broadly applicable model of strategic retention. Faced with an overwhelming volume of unstructured and inconsistently described digital files—most originating from legacy optical media and absent a coherent metadata framework—BAnQ was compelled to make a series of difficult decisions about what to keep, what to discard, and what to prioritize for further analysis or treatment. This necessity, born of scale and constraint, revealed a set of principles that may be adapted by other institutions confronting similarly complex digital acquisitions.
 
-Rather than attempting to define universal technical thresholds or fixed rules for retention, this section presents a strategic retention framework—a decision-making template distilled from the Cossette case. Its purpose is not to prescribe actions, but to guide institutions in constructing their own appraisal logic based on clearly articulated factors: collection context, institutional priorities, resource limitations, and archival values.
+The Cossette case study offers a model of strategic retention applicable to other contexts. Faced with an overwhelming volume of unstructured and inconsistently described digital files—mostly from legacy optical media and lacking a metadata framework—BAnQ had to make a series of difficult decisions: what to keep, what to discard, and what to prioritize for further treatment. This necessity, born of scale and constraint, revealed a set of principles that may be adapted by other institutions dealing with complex digital acquisitions.
 
-Strategic Retention Framework (Derived from the Cossette Case)
+Rather than defining universal technical thresholds or fixed rules, this section presents a strategic retention framework—a decision-making model inspired by the Cossette case. Its goal is not to prescribe actions, but to help institutions build their own appraisal logic based on clearly defined factors: collection context, institutional priorities, resource constraints, and archival values.
 
-Clarify Collection Context and Preservation Intent
-Define the nature and origin of the collection. Is it composed of final products, working files, or both? Is its long-term value primarily evidential, historical, or artistic? What is known (or unknown) about its provenance and production? Clearly articulate the preservation purpose in this context: is the aim comprehensive documentation, representativity, public access, or legal retention?
+3.2.6 Strategic Retention Framework (Derived from the Cossette Case)
+
+Clarify the Collection Context and Preservation Intent
+
+Define the nature and origin of the collection. Does it consist of final deliverables, working files, or both? Is its long-term value primarily evidential, historical, or artistic? What is known (or unknown) about its provenance and production process? Clarify the institutional preservation intent: is the aim exhaustive documentation, representativity, public access, or legal compliance?
 
 Generate a Technical and Descriptive Inventory
-Extract file-level metadata using appropriate tools for the media types (e.g., MediaInfo, DROID, custom scripts). Compile this data into a structured inventory that includes format types, codecs, durations, file counts, and directory structures. Identify structural issues such as path length violations, excessive folder nesting, or duplications.
+
+Extract file-level metadata using appropriate tools (e.g., MediaInfo, DROID, custom scripts). Compile this data into a structured inventory identifying formats, codecs, durations, folder structures, and other relevant characteristics. Identify errors or structural anomalies such as long file paths, deep nesting, or duplicates.
 
 Define Representativity Criteria
-Representativity is not a fixed metric—it must be determined contextually. In the Cossette case, BAnQ had to decide what constituted a “representative” advertisement across format and content variants. Other institutions might consider:
-– Breadth across campaigns or time periods
-– Inclusion of both full and excerpted versions
-– Technical quality and clarity
-– Evidence of creative or production variation
+
+Representativity is not a fixed metric—it is context-dependent. In the Cossette case, BAnQ had to determine what constituted a “representative” advertisement among different format or content variants. Other institutions might consider:
+
+– The breadth of time periods covered
+– The presence of both full and excerpted versions
+– The technical quality and clarity of files
+– Indicators of creative or production evolution
 
 Establish Appraisal and Triage Logic
-Develop criteria to prioritize, retain, or exclude files. These may include threshold-based filters (e.g., discard files below a certain resolution or bitrate unless unique), clustering methods to identify near-duplicates, or markers such as logos, slates, or embedded timecodes. Create a logic that balances thoroughness with feasibility.
+
+Formulate the criteria by which files will be prioritized, retained, or excluded. This may include threshold-based filters (e.g., reject files below a certain resolution unless unique), duplication detection methods, or distinctive markers (logos, slates, timecodes). Balance desired exhaustiveness with real-world feasibility.
 
 Apply Tools to Operationalize Retention Decisions
-Implement scripts or manual workflows that carry out the appraisal logic. This may involve:
-– Flagging files with identical names but different specifications
-– Grouping variants for manual selection of a preferred version
+
+Implement scripts and/or manual workflows that apply the appraisal logic. This may include:
+
+– Flagging files with the same name but differing specifications
+– Grouping variants for manual selection of a “best” version
 – Identifying and isolating files that do not meet retention criteria
 
 Ensure Traceability and Transparency
-Document all decisions—especially those involving exclusion or de-prioritization. Where feasible, retain metadata snapshots of discarded files (e.g., filename, checksum, technical summary) to preserve evidence of their prior existence. Maintain linkages between retained digital assets and their physical carriers or descriptive records.
 
-This framework, while drawn from the specific circumstances of the Cossette fonds, can be adapted to other legacy digital collections—particularly those that arrive without consistent metadata, originate from decentralized workflows, or have undergone undocumented digitization processes. It is particularly useful when resource constraints preclude total retention and demand a more selective, evidence-based approach.
+All decisions—especially those involving exclusion or de-prioritization—should be documented. Where possible, retain a minimal record of discarded files (e.g., filename, hash, metadata). Maintain linkages between digital surrogates and physical carriers or descriptive records.
 
-By surfacing the underlying logic of strategic retention—not just the outputs—it becomes possible to transform individual case responses into institutional memory, and institutional memory into fieldwide practice.
+This framework, while derived from the specific circumstances of the Cossette fonds, may be adapted to other born-digital heritage collections—particularly those lacking coherent metadata, involving analog-digital hybrids, stemming from decentralized practices, or resulting from undocumented migrations. It is especially useful where resources do not allow for total retention and a selective, analysis-based approach becomes necessary.
 
-3.2.6 Lessons Learned
-The insights gained through the development of the strategic retention framework (Section 3.2.5) helped formalize key learnings from the project into a transferable logic applicable beyond BAnQ.
+By surfacing the underlying logic of strategic retention—not just its outcomes—it becomes possible to turn isolated case responses into institutional memory, and institutional memory into fieldwide practice.
 
-The Cossette collection offered BAnQ a critical opportunity to refine its strategies for managing large-scale, hybrid-born donations. Chief among the lessons learned was the necessity of flexible protocols that combine human expertise with scalable automation. The project highlighted the archival importance of tools developed in-house—such as format inventories, metadata reports, and decision trees—that enable institutions to adapt to the idiosyncrasies of each collection.
+3.2.7 Lessons Learned
 
-Equally, it underscored the centrality of intellectual appraisal in digital preservation, beyond technical conformance alone. In the absence of formal metadata or consistent structure, interpretive work by archivists remains essential to reconstruct meaning and value. Donor relations also emerged as a key factor, influencing access policies, evaluation procedures, and retention obligations. Finally, the project reaffirmed the importance of cross-disciplinary coordination and iterative planning as cornerstones of contemporary archival practice.
+Processing the Cossette fonds gave BAnQ a unique opportunity to revise its strategies for managing large-scale, hybrid-format donations. One of the main lessons learned was the need for flexible protocols that combine human expertise with scalable automation. The project underscored the archival value of in-house tools—such as format inventories, metadata reports, and decision trees—that enable adaptation to each collection’s specific features.
+
+It also highlighted the central role of intellectual appraisal in digital preservation, beyond technical conformance. In the absence of structured metadata or stable organization, archivists’ interpretive work remains essential to reconstruct meaning and value. Donor relations proved decisive as well, influencing access policies, appraisal procedures, and retention obligations. Finally, the project reaffirmed the importance of interdisciplinary coordination and iterative planning as foundations of contemporary archival practice.
+
+The insights gained through the development of the strategic retention framework (Section 3.2.6) helped formalize the project’s lessons into a transferable logic extending beyond the Cossette case.
