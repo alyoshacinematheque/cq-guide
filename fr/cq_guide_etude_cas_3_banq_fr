@@ -19,49 +19,32 @@ Cette approche structurée mais adaptable a produit des résultats concrets. Des
 
 Les protocoles d’extraction se sont montrés robustes, même lorsque l’intégrité des disques était compromise. L’inspection des fichiers et l’analyse du contenu ont permis à l’équipe de prioriser les matériaux présentant une valeur durable, tout en maintenant un enregistrement clair des traitements appliqués. La traçabilité entre les supports physiques et leurs substituts numériques a été préservée grâce à une documentation rigoureuse. L’équipe est également parvenue à intégrer les volets archivistique, technique et financier, assurant la conservation des éléments évalués financièrement selon les obligations légales et institutionnelles.
 
-3.2.5 Leçons retenues
-Le traitement du fonds Cossette a offert à BAnQ une occasion déterminante de réviser ses stratégies pour gérer des dons nativement hybrides à grande échelle. L’une des principales leçons retenues est la nécessité de protocoles flexibles alliant expertise humaine et automatisation évolutive. Le projet a mis en lumière l’importance archivistique d’outils développés en interne — tels que les inventaires de formats, les rapports de métadonnées et les arbres décisionnels — permettant à l’institution de s’adapter aux particularités de chaque collection.
-
-Il a également souligné le rôle central de l’évaluation intellectuelle dans la préservation numérique, au-delà des simples conformités techniques. En l’absence de métadonnées structurées ou d’une organisation stable, le travail interprétatif des archivistes demeure essentiel pour reconstruire le sens et la valeur. Les relations avec les donateurs se sont révélées déterminantes, influençant les politiques d’accès, les procédures d’évaluation et les obligations de conservation. Enfin, le projet a réaffirmé l’importance de la coordination interdisciplinaire et de la planification itérative comme fondements d’une pratique archivistique contemporaine.
-
-3.2.6 La sélection stratégique comme pratique transférable
+3.2.5 La sélection stratégique comme pratique transférable
 Le cas Cossette offre plus qu’un récit de résolution : il jette les bases d’un modèle de sélection stratégique applicable à d’autres contextes. Confrontée à un volume écrasant de fichiers numériques non structurés et décrits de manière incohérente — majoritairement issus de supports optiques hérités et dépourvus d’un cadre métadonné — BAnQ a dû prendre une série de décisions délicates : que conserver, que rejeter, et que prioriser pour un traitement ultérieur. Cette nécessité, née de l’échelle et des contraintes, a permis de dégager un ensemble de principes adaptables à d’autres institutions confrontées à des acquisitions numériques complexes.
 
 Plutôt que de définir des seuils techniques universels ou des règles fixes, cette section propose un cadre de sélection stratégique — un modèle décisionnel inspiré du cas Cossette. Son objectif n’est pas de prescrire des actions, mais d’aider les institutions à construire leur propre logique d’évaluation à partir de facteurs clairement définis : contexte de la collection, priorités institutionnelles, contraintes de ressources et valeurs archivistiques.
 
-Cadre de sélection stratégique (inspiré du cas Cossette)
-1. Définir le contexte de la collection et l’intention de préservation
-Commencez par définir la nature et l’origine de la collection. Est-elle composée de produits finis, de fichiers de travail ou des deux? Sa valeur à long terme est-elle principalement probante, historique ou artistique? Que sait-on (ou ignore-t-on) de sa provenance et de son processus de production? Il convient également de clarifier l’intention de préservation institutionnelle dans ce contexte : s’agit-il de documenter de manière exhaustive, d’assurer une représentativité, de garantir l’accès public ou de répondre à des obligations légales?
+  Cadre de sélection stratégique (inspiré du cas Cossette)
 
-2. Générer un inventaire technique et descriptif
-Procédez à l’extraction des métadonnées au niveau fichier à l’aide d’outils appropriés (ex. : MediaInfo, DROID, scripts personnalisés). Compilez ces données dans un inventaire structuré indiquant les formats, codecs, durées, structures de répertoires et autres caractéristiques pertinentes. Repérez les erreurs ou problèmes structurels tels que les chemins de fichier trop longs, les dossiers imbriqués ou les fichiers en double.
+  Définir le contexte de la collection et l’intention de préservation
 
-3. Définir les critères de représentativité
-La représentativité n’est pas une mesure fixe — il s’agit d’un jugement contextuel. Dans le cas Cossette, BAnQ a dû déterminer ce qui constituait une publicité « représentative » parmi plusieurs variantes de format ou de contenu. D’autres institutions pourraient tenir compte de :
+  Générer un inventaire technique et descriptif
 
-l’étendue des campagnes ou des périodes couvertes ;
+  Définir les critères de représentativité
 
-la présence de versions complètes et d’extraits ;
+  Établir une logique d’évaluation et de tri
 
-la qualité technique et la clarté des fichiers ;
+  Appliquer des outils pour opérationnaliser les décisions
 
-les indices d’évolution dans la production ou les variantes créatives.
-
-4. Établir une logique d’évaluation et de tri
-Formulez les critères selon lesquels les fichiers seront priorisés, conservés ou écartés. Cela peut inclure des filtres fondés sur des seuils (par exemple, écarter les fichiers sous une certaine résolution ou un débit donné, sauf s’ils sont uniques), des méthodes de regroupement pour identifier des doublons proches, ou des marqueurs distinctifs tels que logos, cartons de début, ou timecodes intégrés. Développez une logique équilibrant l’exhaustivité souhaitée et la faisabilité réelle.
-
-5. Appliquer des outils pour opérationnaliser les décisions
-Implémentez des scripts ou des flux de travail manuels permettant de mettre en œuvre les décisions d’évaluation. Cela peut comprendre :
-
-le signalement des fichiers portant le même nom mais ayant des spécifications divergentes ;
-
-le regroupement de variantes pour sélectionner manuellement une « meilleure » version ;
-
-l’identification et l’isolement des fichiers ne répondant pas aux critères de conservation.
-
-6. Assurer la traçabilité et la transparence
-Toutes les décisions — notamment celles entraînant l’exclusion ou la rétrogradation de fichiers — doivent être documentées. Lorsque possible, conservez une trace minimale des fichiers écartés (ex. : nom de fichier, empreinte de vérification, métadonnées extraites) afin de préserver une preuve de leur existence. Maintenez les correspondances entre les substituts numériques retenus et leurs supports physiques ou notices descriptives.
+  Assurer la traçabilité et la transparence
 
 Ce cadre, bien qu’issu des circonstances particulières du fonds Cossette, peut être adapté à d’autres collections numériques patrimoniales — notamment celles dépourvues de métadonnées cohérentes, issues de pratiques décentralisées ou marquées par des migrations techniques non documentées. Il est particulièrement pertinent lorsque les ressources disponibles ne permettent pas une conservation exhaustive, et qu’une approche sélective, fondée sur l’analyse et la justification, devient nécessaire.
 
 En mettant en lumière la logique sous-jacente de la sélection stratégique — plutôt que ses seules décisions —, il devient possible de transformer les réponses ponctuelles en mémoire institutionnelle, et cette mémoire en une pratique transférable à l’échelle du milieu.
+
+3.2.6 Leçons retenues
+Les principes détaillés dans le cadre de sélection stratégique (section 3.2.5), issus de cette expérience, ont renforcé ces apprentissages et en ont permis la formalisation dans une logique transférable.
+
+Le traitement du fonds Cossette a offert à BAnQ une occasion déterminante de réviser ses stratégies pour gérer des dons nativement hybrides à grande échelle. L’une des principales leçons retenues est la nécessité de protocoles flexibles alliant expertise humaine et automatisation évolutive. Le projet a mis en lumière l’importance archivistique d’outils développés en interne — tels que les inventaires de formats, les rapports de métadonnées et les arbres décisionnels — permettant à l’institution de s’adapter aux particularités de chaque collection.
+
+Il a également souligné le rôle central de l’évaluation intellectuelle dans la préservation numérique, au-delà des simples conformités techniques. En l’absence de métadonnées structurées ou d’une organisation stable, le travail interprétatif des archivistes demeure essentiel pour reconstruire le sens et la valeur. Les relations avec les donateurs se sont révélées déterminantes, influençant les politiques d’accès, les procédures d’évaluation et les obligations de conservation. Enfin, le projet a réaffirmé l’importance de la coordination interdisciplinaire et de la planification itérative comme fondements d’une pratique archivistique contemporaine.
