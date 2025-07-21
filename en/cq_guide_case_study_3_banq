@@ -19,82 +19,45 @@ This structured yet adaptive approach yielded tangible results. Tens of thousand
 
 Extraction protocols proved robust, even in cases where disc integrity was compromised. File inspection and content analysis allowed the team to prioritize materials of enduring value, while maintaining a clear record of treatments applied. Traceability between physical carriers and digital surrogates was preserved through meticulous documentation. The team also succeeded in integrating archival, technical, and financial workflows, ensuring that items appraised for monetary value could be retained in accordance with legal and institutional requirements.
 
-3.2.5 Lessons Learned
-The Cossette collection offered BAnQ a critical opportunity to refine its strategies for managing large-scale, hybrid-born donations. Chief among the lessons learned was the necessity of flexible protocols that combine human expertise with scalable automation. The project highlighted the archival importance of tools developed in-house—such as format inventories, metadata reports, and decision trees—that enable institutions to adapt to the idiosyncrasies of each collection.
-
-Equally, it underscored the centrality of intellectual appraisal in digital preservation, beyond technical conformance alone. In the absence of formal metadata or consistent structure, interpretive work by archivists remains essential to reconstruct meaning and value. Donor relations also emerged as a key factor, influencing access policies, evaluation procedures, and retention obligations. Finally, the project reaffirmed the importance of cross-disciplinary coordination and iterative planning as cornerstones of contemporary archival practice.
-
-3.2.6 Strategic Retention as a Transferable Practice
+3.2.5 Strategic Retention as a Transferable Practice
 The Cossette collection case study offers more than a narrative of successful intervention; it provides the foundation for a broadly applicable model of strategic retention. Faced with an overwhelming volume of unstructured and inconsistently described digital files—most originating from legacy optical media and absent a coherent metadata framework—BAnQ was compelled to make a series of difficult decisions about what to keep, what to discard, and what to prioritize for further analysis or treatment. This necessity, born of scale and constraint, revealed a set of principles that may be adapted by other institutions confronting similarly complex digital acquisitions.
 
 Rather than attempting to define universal technical thresholds or fixed rules for retention, this section presents a strategic retention framework—a decision-making template distilled from the Cossette case. Its purpose is not to prescribe actions, but to guide institutions in constructing their own appraisal logic based on clearly articulated factors: collection context, institutional priorities, resource limitations, and archival values.
 
 Strategic Retention Framework (Derived from the Cossette Case)
-1. Clarify Collection Context and Preservation Intent
-Begin by defining the nature and origin of the collection. Is it composed of final products, working files, or both? Is its long-term value primarily evidential, historical, or artistic? What is known (or missing) about its provenance and production? Establish the institutional purpose of preservation in this context: is the goal comprehensive documentation, representativity, public access, or legal retention?
 
-2. Generate a Technical and Descriptive Inventory
-Extract file-level metadata using tools appropriate to the media types (e.g., MediaInfo, DROID, custom scripts). Compile this data into a structured inventory that reflects file counts, formats, codecs, durations, and folder structures. Identify errors or structural issues such as path length violations, nesting depth, and duplication patterns.
+Clarify Collection Context and Preservation Intent
+Define the nature and origin of the collection. Is it composed of final products, working files, or both? Is its long-term value primarily evidential, historical, or artistic? What is known (or unknown) about its provenance and production? Clearly articulate the preservation purpose in this context: is the aim comprehensive documentation, representativity, public access, or legal retention?
 
-3. Define Representativity Criteria
-Representativity is not a fixed metric—it is a context-sensitive judgment. For the Cossette collection, BAnQ had to determine what constituted a “representative” advertisement across variations in format, versioning, or completeness. Institutions should consider:
+Generate a Technical and Descriptive Inventory
+Extract file-level metadata using appropriate tools for the media types (e.g., MediaInfo, DROID, custom scripts). Compile this data into a structured inventory that includes format types, codecs, durations, file counts, and directory structures. Identify structural issues such as path length violations, excessive folder nesting, or duplications.
 
-Breadth across campaigns or time periods
+Define Representativity Criteria
+Representativity is not a fixed metric—it must be determined contextually. In the Cossette case, BAnQ had to decide what constituted a “representative” advertisement across format and content variants. Other institutions might consider:
+– Breadth across campaigns or time periods
+– Inclusion of both full and excerpted versions
+– Technical quality and clarity
+– Evidence of creative or production variation
 
-Presence of both full and excerpted versions
+Establish Appraisal and Triage Logic
+Develop criteria to prioritize, retain, or exclude files. These may include threshold-based filters (e.g., discard files below a certain resolution or bitrate unless unique), clustering methods to identify near-duplicates, or markers such as logos, slates, or embedded timecodes. Create a logic that balances thoroughness with feasibility.
 
-Technical quality and clarity
+Apply Tools to Operationalize Retention Decisions
+Implement scripts or manual workflows that carry out the appraisal logic. This may involve:
+– Flagging files with identical names but different specifications
+– Grouping variants for manual selection of a preferred version
+– Identifying and isolating files that do not meet retention criteria
 
-Evidence of production evolution or variation
-
-4. Establish Appraisal and Triage Logic
-Articulate the criteria by which files will be prioritized, retained, or excluded. This may involve threshold-based filters (e.g., discard files below a certain resolution or bitrate unless unique), clustering approaches to identify near-duplicates, or identification of unique markers such as logos, slates, or embedded timecodes. Develop logic that balances comprehensiveness with feasibility.
-
-5. Apply Tools to Operationalize Retention Decisions
-Implement scripts or manual review workflows that translate appraisal logic into action. This might include:
-
-Flagging files with matching names but divergent specs
-
-Grouping variants for manual selection of a “best” version
-
-Identifying and isolating files that fall below retention thresholds
-
-6. Ensure Traceability and Transparency
-All decisions, especially those resulting in the exclusion or downranking of files, should be documented. Where possible, retain a shadow record of discarded files (e.g., filename, checksum, metadata snapshot) to preserve evidence of prior existence. Maintain linkages between retained digital surrogates and their original carriers or descriptive records.
+Ensure Traceability and Transparency
+Document all decisions—especially those involving exclusion or de-prioritization. Where feasible, retain metadata snapshots of discarded files (e.g., filename, checksum, technical summary) to preserve evidence of their prior existence. Maintain linkages between retained digital assets and their physical carriers or descriptive records.
 
 This framework, while drawn from the specific circumstances of the Cossette fonds, can be adapted to other legacy digital collections—particularly those that arrive without consistent metadata, originate from decentralized workflows, or have undergone undocumented digitization processes. It is particularly useful when resource constraints preclude total retention and demand a more selective, evidence-based approach.
 
 By surfacing the underlying logic of strategic retention—not just the outputs—it becomes possible to transform individual case responses into institutional memory, and institutional memory into fieldwide practice.
 
-Strategic Retention Framework (Derived from the Cossette Case)
-1. Clarify Collection Context and Preservation Intent
-Begin by defining the nature and origin of the collection. Is it composed of final products, working files, or both? Is its long-term value primarily evidential, historical, or artistic? What is known (or unknown) about its provenance and production? Clearly articulate the preservation purpose in this context: is the aim comprehensive documentation, representativity, public access, or legal retention?
+3.2.6 Lessons Learned
+The insights gained through the development of the strategic retention framework (Section 3.2.5) helped formalize key learnings from the project into a transferable logic applicable beyond BAnQ.
 
-2. Generate a Technical and Descriptive Inventory
-Extract file-level metadata using appropriate tools for the media types (e.g., MediaInfo, DROID, custom scripts). Compile this data into a structured inventory that includes format types, codecs, durations, file counts, and directory structures. Identify structural issues such as path length violations, excessive folder nesting, or duplications.
+The Cossette collection offered BAnQ a critical opportunity to refine its strategies for managing large-scale, hybrid-born donations. Chief among the lessons learned was the necessity of flexible protocols that combine human expertise with scalable automation. The project highlighted the archival importance of tools developed in-house—such as format inventories, metadata reports, and decision trees—that enable institutions to adapt to the idiosyncrasies of each collection.
 
-3. Define Representativity Criteria
-Representativity is not a fixed metric—it must be determined contextually. In the Cossette case, BAnQ had to decide what constituted a “representative” advertisement across format and content variants. Other institutions might consider:
-
-Breadth across campaigns or time periods
-
-Inclusion of both full and excerpted versions
-
-Technical quality and clarity
-
-Evidence of creative or production variation
-
-4. Establish Appraisal and Triage Logic
-Develop criteria to prioritize, retain, or exclude files. These may include threshold-based filters (e.g., discard files below a certain resolution or bitrate unless unique), clustering methods to identify near-duplicates, or markers such as logos, slates, or embedded timecodes. Create a logic that balances thoroughness with feasibility.
-
-5. Apply Tools to Operationalize Retention Decisions
-Implement scripts or manual workflows that carry out the appraisal logic. This may involve:
-
-Flagging files with identical names but different specifications
-
-Grouping variants for manual selection of a preferred version
-
-Identifying and isolating files that do not meet retention criteria
-
-6. Ensure Traceability and Transparency
-Document all decisions—especially those involving exclusion or de-prioritization. Where feasible, retain metadata snapshots of discarded files (e.g., filename, checksum, technical summary) to preserve evidence of their prior existence. Maintain linkages between retained digital assets and their physical carriers or descriptive records.
+Equally, it underscored the centrality of intellectual appraisal in digital preservation, beyond technical conformance alone. In the absence of formal metadata or consistent structure, interpretive work by archivists remains essential to reconstruct meaning and value. Donor relations also emerged as a key factor, influencing access policies, evaluation procedures, and retention obligations. Finally, the project reaffirmed the importance of cross-disciplinary coordination and iterative planning as cornerstones of contemporary archival practice.
