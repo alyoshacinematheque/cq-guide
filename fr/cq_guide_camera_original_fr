@@ -1,0 +1,140 @@
+Formats originaux des caméras numériques (vers 2012) et considérations de préservation
+
+Date : 27 octobre 2023
+
+Résumé exécutif
+
+Vers 2012, les caméras numériques — des téléphones intelligents aux caméscopes professionnels — produisaient des vidéos dans une grande variété de formats de fichiers, chacun doté de caractéristiques techniques et de métadonnées particulières. Ces formats utilisaient principalement une compression avec perte, surtout la compression interframe (Long-GOP) H.264 ou MPEG-2, entraînant une dégradation de la qualité lors de ré-encodages successifs. Beaucoup souffraient aussi de métadonnées limitées ou propriétaires, d’arbres de répertoires complexes et d’une dépendance à du matériel ou des logiciels spécifiques.
+
+Pour la préservation numérique, les principaux défis sont : atténuer la perte de qualité due à la compression avec perte, gérer l’obsolescence des formats et des codecs propriétaires, traiter des structures de fichiers complexes, résoudre les problèmes de timecode et de synchronisation, assurer l’accessibilité à long terme, et faire face à l’augmentation significative des besoins de stockage pour les masters de préservation.
+
+Les pratiques exemplaires pour répondre à ces défis comprennent :
+
+Ingestion bit à bit : Capturer l’intégralité de la structure originale (p. ex. utiliser BagIt pour les médias fichiers, ou FireWire pour les supports sur bande).
+
+Normalisation : Convertir les originaux vers des formats ouverts, sans perte et largement pris en charge, principalement le conteneur Matroska (MKV) avec le codec FFV1, ou, dans certains cas, JPEG2000 dans MXF.[1]
+
+Capture exhaustive des métadonnées : Extraire et conserver toutes les métadonnées techniques, descriptives et structurelles.
+
+Stratégies de stockage robustes : Mettre en place des copies multiples, vérifier les sommes de contrôle (checksums) et effectuer des migrations périodiques.
+
+De nouveaux outils comme MediaConch, FADGI et les lignes directrices de la Library of Congress aident à valider et à gérer ces efforts de préservation. En adoptant ces stratégies, les archives peuvent transformer des originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques.
+
+Thèmes clés et idées importantes
+
+1. Diversité et complexité des formats de l’ère 2012
+
+En 2012, le paysage des formats vidéo numériques était très fragmenté entre les appareils grand public et professionnels. Chaque format comportait un conteneur (wrapper) et un ou plusieurs codecs pour la vidéo et l’audio.
+
+Appareils grand public :
+
+Téléphones intelligents (iPhone, Android) : utilisaient principalement les conteneurs MP4 ou MOV avec le codec vidéo H.264/AVC et l’audio AAC. Les résolutions courantes allaient jusqu’au 1080p à 30 ips, avec un sous-échantillonnage de chrominance 8 bits 4:2:0 et des débits relativement faibles (souvent autour de 10 Mb/s). Les téléphones plus anciens pouvaient générer des fichiers 3GPP .3gp avec H.263 ou H.264 “baseline” à des résolutions inférieures.
+
+GoPro et caméras d’action : utilisaient le conteneur MP4 avec vidéo H.264 et audio AAC, offrant du 1080p à 30 ips et du 720p à 60 ips à des débits plus élevés (15–45 Mb/s) notamment avec le mode Protune.
+
+DSLR (Canon, Nikon, Panasonic) : enregistraient généralement dans des fichiers QuickTime MOV (Canon/Nikon) ou parfois en AVCHD .MTS (certains modèles Panasonic/Sony). Les codecs étaient habituellement H.264/AVC pour la vidéo et PCM non compressé pour l’audio. Les premiers reflex comme le Nikon D90 (2008) adoptaient une autre approche : Motion-JPEG dans un conteneur AVI (720p24), intra-image mais générant des fichiers volumineux.
+
+Caméscopes grand public :
+DV : format MiniDV sur cassette (SD), compression intra-image utilisant la DCT, débit fixe 25 Mb/s, en AVI Type-2 ou QuickTime MOV avec codec DV, audio PCM non compressé.
+HDV : extension haute définition du DV sur bande, utilisant MPEG-2 vidéo à ~25 Mb/s et audio compressé (MPEG-1 Layer II).
+AVCHD : format HD basé sur fichier, développé par Sony et Panasonic, utilisant H.264 vidéo avec audio Dolby AC-3 ou PCM, dans un flux de transport MPEG (MPEG-TS) organisé en une structure de dossiers de type Blu-ray.
+
+Appareils professionnels :
+
+XDCAM (Sony) : utilisait le conteneur MXF sur support optique ou MP4 sur mémoire solide, avec du MPEG-2 HD (p. ex. 50 Mb/s (4:2:2) en MXF).
+Panasonic P2 : chaque plan était stocké en plusieurs fichiers MXF (vidéo et audio séparés, plus un XML de métadonnées), utilisant DVCPRO HD (100 Mb/s, intra-image, 4:2:2 8 bits) et AVC-Intra (100 Mb/s, 10 bits 4:2:2).
+ProRes (Apple) : codec intermédiaire populaire adopté par certaines caméras comme l’ARRI Alexa, enregistrant en ProRes 422 HQ ou 4444 10 bits 1920×1080 dans un conteneur MOV. Considéré comme intra-image visuellement sans perte.
+Formats RAW caméra (RED, Blackmagic) : la plus grande fidélité mais aussi les plus propriétaires. Exemples : fichiers R3D de RED (Redcode RAW) encapsulant des données Bayer compressées, et CinemaDNG : format ouvert pour la vidéo brute (séquence d’images DNG).
+
+2. Compression avec perte omniprésente et enjeux de qualité
+
+Presque tous les originaux de caméras de 2012, à l’exception des vrais RAW ou non compressés, étaient avec perte.
+
+Compression inter-images (Long-GOP) : des formats comme H.264/AVC (MP4, MOV, AVCHD) et MPEG-2 (HDV, XDCAM) utilisent une compression Long-GOP, où seules les images clés sont autonomes. Cela rend le montage peu convivial et complique l’édition ou l’analyse image par image.
+
+Dégradation de la qualité : les codecs avec perte introduisent des artefacts (blocage, “mosquito noise”, pertes liées au sous-échantillonnage couleur) qui deviennent plus visibles lors de traitements ultérieurs. Les ré-encodages répétés dégradent encore la qualité.
+
+Sous-échantillonnage couleur et profondeur de bits : la plupart des appareils grand public utilisaient le 8 bits 4:2:0, entraînant une perte de détail chromatique. Les formats professionnels proposaient une meilleure fidélité couleur (4:2:2 ou RAW) et des profondeurs de 10 à 12 bits.
+
+Compression audio : l’audio des formats grand public était souvent compressé (AAC, AC-3, MPEG Audio), tandis que les formats professionnels conservaient du PCM non compressé pour la qualité.
+
+3. Problèmes de métadonnées et de structures de fichiers
+
+De nombreux formats présentaient des difficultés concernant l’intégration des métadonnées et des structures de dossiers complexes.
+
+Métadonnées limitées/propriétaires : les DSLR intégraient généralement peu de métadonnées. Les téléphones pouvaient inclure l’orientation (souvent ignorée par les lecteurs) et des balises GPS. Les formats professionnels comme MXF et les XML P2 offraient des métadonnées riches mais nécessitaient un traitement spécifique.
+
+Structures de dossiers complexes : des formats comme AVCHD ou P2 MXF ne se présentent pas sous la forme d’un seul fichier mais d’un répertoire complexe contenant de multiples fichiers. Perdre les fichiers annexes (.CPI, .MPL en AVCHD, ou les XML P2) signifie perdre des métadonnées importantes (date/heure d’enregistrement exacte, ordre des clips).
+
+Découpage de fichiers (“file spanning”) : les GoPro et les DSLR découpent souvent les enregistrements en plusieurs fichiers dès qu’ils atteignent 4 Go à cause de FAT32. Pour la préservation, il faut capturer l’ensemble des fichiers et, ensuite, concaténer ou reconditionner.
+
+Problèmes de timecode : certains formats n’ont pas de timecode fiable ou présentent des discontinuités. Les clips DSLR commencent souvent à 00:00:00.00.
+
+4. Obsolescence des formats et risques propriétaires
+
+Certains formats bénéficient d’un large support (H.264, MPEG-2, DV — tous normalisés et largement implémentés). D’autres sont propriétaires ou liés à un seul fabricant (ProRes, Redcode, certaines déclinaisons d’AVCHD, etc.).
+
+Codecs propriétaires : si l’entreprise n’entretient plus le codec, les systèmes futurs pourraient ne pas les lire. Apple ProRes dépend du support d’Apple et DVCPRO HD est un codec fermé de Panasonic.
+
+Manque d’ouverture : l’ouverture d’un format est un critère clé en préservation. H.264, bien que normalisé ISO/IEC, est grevé de brevets.
+
+Défis d’intégration : certains logiciels modernes abandonnent déjà le support de formats sur bande ou d’anciennes structures de fichiers.
+
+5. Considérations de stockage et de taille pour la préservation
+
+La normalisation vers des formats sans perte ou non compressés fait exploser la taille des fichiers.
+
+Besoins de stockage accrus : 1 heure de vidéo 1080p 8 bits 4:2:2 non compressée représente ~1200 Gb (environ 1,2 téraoctets), alors que l’original caméra (H.264 à 35 Mb/s) est ~16 Go. Même le FFV1 sans perte peut ramener cela à ~300–400 Go.
+
+Compromis : certaines archives optent pour un mezzanine (IMX 50 Mb/s ou ProRes 100 Mb/s) comme master de préservation « suffisamment bon » afin d’éviter des fichiers énormes, bien que ce soit avec perte. Les recommandations actuelles (FADGI, LoC, etc.) privilégient cependant le véritable sans perte ou, à tout le moins, l’absence de pertes supplémentaires.
+
+Implications et stratégies de flux de travail de préservation
+
+1. Ingestion et identification (capturer l’intégrité originale)
+
+Ingestion bit à bit : pour les médias fichiers, copier toute la structure de répertoires sans altération est crucial. La méthode privilégiée est de créer une image disque exacte ou d’utiliser un emballage BagIt.
+
+Emballage BagIt : BagIt (norme IETF) permet d’agréger les fichiers avec des manifestes de sommes de contrôle pour assurer l’intégrité. Cela garantit la conservation des fichiers annexes (.CPI, .MPL, etc.) avec la vidéo et leur vérification ultérieure.
+
+Capture à partir de bandes : pour le DV/HDV, l’ingest consiste à capturer la sortie bande via FireWire pour un transfert sans perte (clone numérique) et récupérer exactement les bits de la bande.
+
+2. Normalisation (migration de format pour la longévité)
+
+Formats cibles : les masters de préservation doivent être ouverts, largement supportés, sans perte ou non compressés, capables de contenir des métadonnées étendues, et sans dépendance à des systèmes propriétaires.
+
+Matroska (MKV) avec FFV1 : un choix de premier plan aujourd’hui. FFV1 est un codec vidéo sans perte qui compresse mathématiquement sans perte et intègre une vérification d’erreur (CRC) par image. Le conteneur Matroska est ouvert, flexible et standardisé par une communauté ouverte. Cette combinaison répond à de nombreux besoins de préservation.
+
+Autres options :
+Non compressé : le plus sûr pour éviter toute perte générationnelle, mais génère des fichiers énormes.
+JPEG 2000 sans perte dans MXF : format historiquement utilisé par des institutions comme la Library of Congress. Offre en moyenne une compression d’environ 2:1.
+
+Normalisation audio : la normalisation consiste généralement à convertir en PCM (non compressé) dans un conteneur standard (WAV ou au sein du Matroska). Cela évite les problèmes de décodage futurs ou les pertes additionnelles.
+
+3. Extraction et préservation des métadonnées (le contexte est essentiel)
+
+Extraction détaillée : utiliser des outils comme MediaInfo, ExifTool, FFprobe pour extraire les détails : codec, profil de format, durée, débit, résolution, cadence d’images, canaux audio, balises de langue, horodatages de création, etc.
+
+Documentation : ces informations peuvent être stockées dans une base de données ou comme métadonnées annexes (JSON, ou intégrées au Matroska sous forme de tags). Il est essentiel de documenter l’original, même si l’on transcoder.
+Flags d’orientation : s’ils sont présents, soit tourner l’image dans le nouveau fichier, soit conserver un tag équivalent.
+
+4. Stockage et accès en préservation numérique
+
+Redondance et fixité : conserver plusieurs copies (séparées géographiquement), utiliser des stockages à correction d’erreurs ou des bandes de données, et vérifier périodiquement les sommes de contrôle.
+
+Copies d’accès : produire des MP4 à débit inférieur ou similaires pour un visionnement facile en diffusion, tout en conservant le master de haute qualité.
+
+Conserver les originaux vs. transcoder : même si la transcodification vers des formats standards est généralement recommandée pour la longévité, il est conseillé de conserver le fichier original tel que reçu (au sein du paquet d’information archivistique) puisqu’il contient le flux binaire et les métadonnées d’origine.
+
+5. Nouveaux outils et normes
+
+MediaConch : permet de vérifier que les fichiers respectent certains standards — par exemple, s’assurer que vos fichiers FFV1/MKV sont valides et conformes aux profils connus.
+
+Lignes directrices FADGI et QCTools : offrent des recommandations exhaustives sur la numérisation et la préservation vidéo, ainsi que des outils d’analyse des fichiers vidéo pour détecter erreurs/artefacts.
+
+Caractéristiques de résilience : des formats récents comme FFV1 offrent une meilleure résistance aux erreurs que les anciens, avec des fonctionnalités comme les “slices” et le CRC pour atténuer la corruption.
+
+IMF (Interoperable Master Format) : norme émergente, surtout pour gérer de multiples versions d’œuvres audiovisuelles. Plus pertinente pour la distribution et le mastering, elle est néanmoins envisagée par les archives pour la préservation de masters finaux, offrant efficacité et limitation de la redondance.
+
+Conclusion
+
+Préserver avec succès les vidéos nées numériques de l’ère 2012 exige une approche stratégique qui reconnaît les particularités techniques des formats originaux. En capturant minutieusement le flux binaire et les métadonnées associées, en normalisant vers des formats ouverts et robustes comme MKV/FFV1, et en mettant en œuvre des pratiques rigoureuses de stockage et de documentation, les archives peuvent garantir l’accessibilité et l’authenticité à long terme de ce patrimoine culturel important. L’objectif est de transformer un tas de fichiers potentiellement « défavorables à la préservation » en un ensemble cohérent d’objets archivistiques auto-descriptifs, vérifiés par fixité et dans des formats conçus pour durer.
