@@ -1,6 +1,6 @@
 Formats originaux des caméras numériques (vers 2012) et considérations de préservation
 
-Résumé exécutif
+Résumé 
 
 Vers 2012, les caméras numériques produisaient des vidéos dans une grande variété de formats de fichiers, chacun doté de caractéristiques techniques et de métadonnées particulières. Ces formats utilisaient principalement une compression avec perte, surtout la compression interframe (Long-GOP) H.264 ou MPEG-2, entraînant une dégradation de la qualité lors de ré-encodages successifs. Beaucoup souffraient aussi de métadonnées limitées ou propriétaires, d’arbres de répertoires complexes et d’une dépendance à du matériel ou des logiciels spécifiques.
 
