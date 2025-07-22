@@ -16,9 +16,9 @@ Normalisation : Convertir les originaux vers des formats ouverts, sans perte et 
 
 Capture exhaustive des métadonnées : Extraire et conserver toutes les métadonnées techniques, descriptives et structurelles.
 
-Stratégies de stockage robustes : Mettre en place des copies multiples, vérifier les sommes de contrôle (checksums) et effectuer des migrations périodiques.
+Stratégies de stockage robustes : Vérifier les sommes de contrôle (checksums) et effectuer des migrations périodiques.
 
-De nouveaux outils comme MediaConch, FADGI et les lignes directrices de la Library of Congress aident à valider et à gérer ces efforts de préservation. En adoptant ces stratégies, les archives peuvent transformer des originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques.
+De nouveaux outils comme MediaConch, ainsi que les lignes directrices de la Library of Congress aident à valider et à gérer ces efforts de préservation. En adoptant ces stratégies, les archives peuvent transformer des originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques.
 
 Thèmes clés et idées importantes
 
@@ -140,6 +140,6 @@ IMF (Interoperable Master Format) : norme émergente, surtout pour gérer de mul
 
 Observations
 
-Préserver avec succès les vidéos nées numériques de l’ère 2012 exige une approche stratégique qui reconnaît les particularités techniques des formats originaux. En capturant minutieusement le flux binaire (bitstream) et les métadonnées associées, en normalisant vers des formats ouverts et robustes, et en mettant en œuvre des pratiques innovante de stockage et de documentation, les archives peuvent garantir l’accessibilité et l’authenticité à long terme de ce patrimoine culturel important. 
+Préserver avec succès les vidéos nées numériques de l’ère 2012 exige une approche stratégique qui reconnaît les particularités techniques des formats originaux. En capturant minutieusement le flux binaire (bitstream) et les métadonnées associées, en normalisant vers des formats ouverts et robustes, et en mettant en œuvre des pratiques innovante de stockage et de documentation, les archives peuvent garantir l’accessibilité et l’authenticité à long terme de ce patrimoine culturel important. L’objectif est de transformer un tas de fichiers potentiellement « défavorables à la préservation » en un ensemble cohérent d’objets archivistiques auto-descriptifs, vérifiés par fixité et dans des formats conçus pour durer.
 
-L’objectif est de transformer un tas de fichiers potentiellement « défavorables à la préservation » en un ensemble cohérent d’objets archivistiques auto-descriptifs, vérifiés par fixité et dans des formats conçus pour durer.
+Ce travail exige une compréhension fine des conditions de production, des flux de travail d’origine et des contraintes propres à chaque type de support. Le traitement du fonds Épopée permettra d’affiner des critères de décision, de tester des outils en situation réelle et d’éclairer les arbitrages concrets qui façonnent une stratégie de préservation durable.
