@@ -1,8 +1,6 @@
-Digital Camera Original Formats (Circa 2012) and Preservation Considerations
+Case Study 1 — Processing the Épopée Collection: Preservation Challenges of Diverse Camera-Original Formats
 
-Date: 2023-10-27
-
-Executive Summary
+On 2023-05-12, the Cinémathèque québécoise received the Épopée collection—an extensive audiovisual record of the 2012 student protests and the broader social strike they catalyzed. It brings together hundreds of hours of footage shot by independent videographers on everything from phones and cheap digital cameras to prosumer rigs and professional gear (DSLRs, GoPros, camcorders, etc.). As both document and symbol, the corpus exposes the diversity—and fragility—of early-2010s camera-original formats and the preservation challenges they pose.
 
 Around 2012, digital cameras, from smartphones to professional camcorders, produced video in a diverse array of file formats, each with unique technical characteristics and metadata. These formats primarily employed lossy compression, particularly inter-frame (Long-GOP) H.264 or MPEG-2, leading to quality degradation upon repeated re-encoding. Many formats also suffered from limited or proprietary metadata, complex folder structures, and dependence on specific hardware/software.
 
