@@ -18,7 +18,7 @@ Capture exhaustive des métadonnées : Extraire et conserver toutes les métadon
 
 Stratégies de stockage robustes : Vérifier les sommes de contrôle (checksums) et effectuer des migrations périodiques.
 
-De nouveaux outils comme MediaConch, ainsi que les lignes directrices de la Library of Congress aident à valider et à gérer ces efforts de préservation. En adoptant ces stratégies, les archives peuvent transformer des originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques.
+Des outils comme MediaConch, ainsi que les lignes directrices de la Library of Congress aident à valider et à gérer ces efforts de préservation. En adoptant ces stratégies, les archives peuvent transformer des originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques.
 
 Thèmes clés et idées importantes
 
@@ -126,9 +126,7 @@ Flags d’orientation : s’ils sont présents, soit tourner l’image dans le n
 
 4. Stockage et accès en préservation numérique
 
-Redondance et fixité : conserver plusieurs copies (séparées géographiquement), utiliser des stockages à correction d’erreurs ou des bandes de données, et vérifier périodiquement les sommes de contrôle.
-
-Copies d’accès : produire des MP4 à débit inférieur ou similaires pour un visionnement facile en diffusion, tout en conservant le master de haute qualité.
+Copies d’accès : produire des AVC/MP4 à débit inférieur ou similaires pour un visionnement facile en diffusion, tout en conservant le master de haute qualité.
 
 Conserver les originaux vs. transcoder : même si la transcodification vers des formats standard est généralement recommandée pour la longévité, il est conseillé de conserver le fichier original tel que reçu (au sein du paquet d’information archivistique) puisqu’il contient le flux binaire et les métadonnées d’origine.
 
