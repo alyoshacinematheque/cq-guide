@@ -189,29 +189,28 @@ Reçu le 12 mai 2023 par la Cinémathèque québécoise, le fonds Épopée docum
 
 4.1.2 Objectifs et contraintes
 
-Vers 2012, les caméras numériques produisaient des vidéos dans une grande variété de formats de fichiers, chacun doté de caractéristiques techniques et de métadonnées particulières. Ces formats utilisaient principalement une compression avec perte, surtout la compression interframe (Long-GOP) H.264 ou MPEG-2, entraînant une dégradation de la qualité lors de ré-encodages successifs. Beaucoup souffraient aussi de métadonnées limitées ou propriétaires, d’arbres de répertoires complexes et d’une dépendance à du matériel ou des logiciels spécifiques.
+En 2012, les caméras numériques produisaient des vidéos dans une grande variété de formats de fichiers, chacun doté de caractéristiques techniques et de métadonnées particulières. Ces formats utilisaient principalement une compression avec perte, surtout la compression interframe (Long-GOP) H.264 ou MPEG-2, entraînant une dégradation de la qualité lors de ré-encodages successifs. Beaucoup souffraient aussi de métadonnées limitées ou propriétaires, d’arbres de répertoires complexes et d’une dépendance à du matériel ou des logiciels spécifiques.
 
 Pour la préservation numérique, les principaux défis sont : atténuer la perte de qualité due à la compression avec perte, gérer l’obsolescence des formats et des codecs propriétaires, traiter des structures de fichiers complexes, résoudre les problèmes de timecode et de synchronisation, assurer l’accessibilité à long terme, et faire face à l’augmentation significative des besoins de stockage pour les masters de préservation.
 
-4.1.3 Protocole ou solution développée
+4.1.3 Protocoles ou solutions en développement
 
 Les pratiques exemplaires pour répondre à ces défis comprennent :
+
 Ingestion bit par bit : capturer l’intégralité de la structure originale (ex. : utiliser BagIt pour les médias fichiers, ou FireWire pour les supports sur bande).
 
 Normalisation : convertir les originaux vers des formats ouverts, sans perte et largement compatibles, principalement en utilisant le conteneur Matroska (MKV) avec le codec FFV1, ou, dans certains cas, JPEG2000 dans MXF.
 
 Capture exhaustive des métadonnées : extraire et conserver toutes les métadonnées techniques, descriptives et structurelles.
 
-Stratégies de stockage robustes : vérifier les checksums et effectuer des migrations périodiques.
+Mise en place d’un poste de travail dédié : une station de travail audiovisuelle a été configurée spécifiquement pour le traitement de ce fonds, permettant l’ingest, l’analyse et le transcodage dans un environnement stable et performant. La configuration complète de ce poste figure en annexe.
 
-Des outils comme MediaConch, ainsi que les lignes directrices de la Library of Congress, aident à valider et à gérer ces efforts de préservation.
+4.1.4 Mise en œuvre et résultats anticipés
 
-4.1.4 Mise en œuvre et résultats
+En adoptant ces stratégies, les archives peuvent transformer des images originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques.
+Le traitement du fonds Épopée va nous permettre d’affiner des critères de décision, de tester des outils en situation réelle et d’éclairer les arbitrages concrets qui façonnent une stratégie de préservation durable. Ce traitement sert ainsi de première étude de cas dans le cadre du projet PAM à la Cinémathèque québécoise.
 
-En adoptant ces stratégies, les archives peuvent transformer des originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques.
-Le traitement du fonds Épopée a permis d’affiner des critères de décision, de tester des outils en situation réelle et d’éclairer les arbitrages concrets qui façonnent une stratégie de préservation durable. Ce traitement sert ainsi de première étude de cas dans le cadre du projet PAM à la Cinémathèque québécoise.
-
-4.1.5 Leçons tirées
+4.1.5 Leçons ciblées
 
 Préserver avec succès les vidéos nées numériques de l’ère 2012 exige une approche stratégique qui reconnaît les particularités techniques des formats originaux. En capturant minutieusement le flux binaire et les métadonnées associées, en normalisant vers des formats ouverts et robustes, et en mettant en œuvre des pratiques innovantes de stockage et de documentation, les archives peuvent garantir l’accessibilité et l’authenticité à long terme de ce patrimoine culturel important.
 
