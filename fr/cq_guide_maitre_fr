@@ -1,1 +1,331 @@
-1111
+Table des matières
+
+Introduction
+  1.1 Objectif du guide
+  1.2 Contexte du projet et institutions partenaires
+  1.3 Préservation des œuvres audiovisuelles nativement numériques
+  1.4 Aperçu de la méthodologie
+
+Contexte et positionnement du projet
+  2.1 Initiatives nationales et internationales
+  2.2 Portée de la collaboration actuelle
+
+États des lieux : état actuel de la préservation des archives audiovisuelles numériques
+  3.1 Cinémathèque québécoise (CQ)
+    3.1.1 Infrastructure existante
+    3.1.2 Pratiques actuelles et défis rencontrés
+  3.2 BAnQ
+    3.2.1 Infrastructure existante
+    3.2.2 Pratiques actuelles et défis rencontrés
+  3.3 MAC
+    3.3.1 Infrastructure existante
+    3.3.2 Pratiques actuelles et défis rencontrés
+  3.4 SAT
+    3.4.1 Infrastructure existante
+    3.4.2 Pratiques actuelles et défis rencontrés
+  3.5 Observations croisées entre institutions
+
+Études de cas
+  Étude de cas 1 – Cinémathèque québécoise (CQ)
+  • Contexte et enjeu
+  • Objectifs et contraintes
+  • Protocole ou solution développée
+  • Mise en œuvre et résultats
+  • Leçons tirées
+  Étude de cas 2 – Cinémathèque québécoise (CQ)
+  Étude de cas 3 – BAnQ
+  Étude de cas 4 – BAnQ
+  Étude de cas 5 – MAC
+  Étude de cas 6 – MAC
+  Étude de cas 7 – SAT
+  Étude de cas 8 – SAT
+
+Meilleures pratiques
+  5.1 Principes généraux de la préservation numérique
+  5.2 Formats de fichiers et conteneurs recommandés
+  5.3 Normes de métadonnées et de documentation
+  5.4 Stratégies de stockage et de redondance
+  5.5 Intégrité des fichiers et suivi de la fixité
+  5.6 Coordination institutionnelle et transfert des connaissances
+
+Arbre décisionnel
+  6.1 Comment utiliser cet outil
+  6.2 Diagramme de l’arbre décisionnel
+
+Boîte à outils : logiciels et ressources
+  7.1 Outils libres et open source
+  7.2 Solutions commerciales (optionnel)
+  7.3 Aide-mémoire : formats et codecs
+  7.4 Exemples de flux de travail et de scripts
+
+Références bibliographiques et lectures complémentaires
+
+------------
+
+Introduction
+
+1.1 Objectif du guide Ce guide propose des recommandations concrètes et actuelles à l’intention des professionnel·le·s œuvrant auprès de collections audiovisuelles nées numériques, que ce soit en milieu muséal, archivistique ou de création. Il vise à accompagner les institutions et les créateur·rice·s dans la résolution de défis réels en matière de préservation, en leur offrant des outils clairs, des solutions applicables et des approches de travail souples et évolutives.
+
+1.2 Contexte du projet et institutions partenaires 
+
+Issu d’une démarche concertée réunissant la Cinémathèque québécoise, Bibliothèque et Archives nationales du Québec, le Musée d’art contemporain de Montréal et la Société des arts technologiques, ce guide répond à un besoin manifeste : celui de développer des solutions partagées, éprouvées sur le terrain, dans un domaine où les pratiques évoluent rapidement. Chaque institution partenaire possède un environnement technique et des priorités qui lui sont propres, ce qui rend le partenariat à la fois diversifié et représentatif du paysage institutionnel.
+
+1.3 Préservation des œuvres audiovisuelles nativement numériques 
+
+Les œuvres audiovisuelles nées numériques couvrent un vaste spectre de formes, en croissance constante : originaux de caméras numériques, longs métrages montés sur systèmes non linéaires, vidéos expérimentales, captations de performances, installations immersives conçues entièrement dans des environnements logiciels. Le terme né numérique renvoie souvent à des formats contemporains (fichiers ProRes, vidéo 4K, formats propriétaires de caméras), mais il inclut aussi des œuvres pionnières en images de synthèse, des CD-ROMs, des jeux interactifs, des projets artistiques en ligne et, plus récemment, des systèmes génératifs d’images. Ce guide rassemble et articule une pluralité de points de vue institutionnels afin de proposer des stratégies de préservation durables, contextuelles et sensibles à la complexité propre à ces œuvres.
+
+1.4 Aperçu de la méthodologie 
+
+Le guide adopte une approche de type microservices en matière de préservation numérique, privilégiant des outils et des flux de travail modulaires, légers et combinables à volonté. Plutôt que d’imposer une solution unique de bout en bout, nous mettons l’accent sur des composantes interopérables, adaptables aux contextes spécifiques, favorisant une mise en œuvre progressive, la diversité technologique et une résilience à long terme.
+
+Nous nous inspirons également des principes de l’approche More Product, Less Process (MPLP), qui valorise la production de résultats tangibles plutôt qu’une documentation exhaustive. L’objectif n’est pas d’anticiper tous les cas de figure, mais d’offrir des recommandations utiles, évolutives et facilement applicables par les institutions, selon leurs réalités.
+
+Dans la mesure du possible, nous privilégions l’usage de logiciels libres et open source (FOSS), par souci de transparence, de pérennité et d’autonomie institutionnelle. Ces outils, auditables, soutenus par des communautés et adaptables à l’évolution technologique, permettent de réduire la dépendance aux plateformes propriétaires et d’assurer que les efforts de préservation demeurent accessibles, transférables et viables à long terme.
+
+Les recommandations formulées dans ce guide s’appuient sur huit études de cas concrètes, fournies par les institutions partenaires. Chacune d’elles décrit un enjeu réel de préservation, détaille les étapes entreprises et en tire des enseignements traduits en actions concrètes.
+
+Contexte et positionnement du projet
+
+2.1 Initiatives nationales et internationales 
+
+La préservation numérique des œuvres audiovisuelles et médiatiques est aujourd’hui une préoccupation partagée par de nombreuses institutions culturelles à travers le monde. Depuis une vingtaine d’années, divers organismes ont élaboré des cadres, des outils et des stratégies pour répondre aux défis spécifiques posés par les médias numériques et temporels. Qu’il s’agisse d’obsolescence technologique, de dépendance aux logiciels, de problématiques de documentation, d’accès ou d’intégrité, le domaine progresse continuellement grâce à l’expérimentation collective et au partage de savoirs.
+
+2.2 Portée de la collaboration actuelle 
+
+Plusieurs initiatives majeures ont enrichi cet écosystème international. Au Canada, le projet DOCAM (Documentation et conservation du patrimoine des arts médiatiques) a posé des bases structurantes. Aux Pays-Bas, le programme Living Media Art (LIMA) contribue activement à la préservation de l’art médiatique. Le consortium Matters in Media Art, réunissant entre autres la Tate, le MoMA, le SFMOMA et le New Art Trust, joue également un rôle central dans le développement de bonnes pratiques en la matière. En France, le Réseau HACNUM (Réseau national des arts hybrides et cultures numériques) soutient la recherche et l’innovation dans les pratiques artistiques hybrides et numériques. Des institutions comme le ZKM | Centre d’art et de technologie des médias de Karlsruhe, de même que des collaborations internationales telles que le projet smART / International Digital Alliance, contribuent à faire évoluer les méthodes de préservation des œuvres numériques complexes. Au Québec, le Centre de conservation du Québec offre une expertise essentielle et une infrastructure de pointe pour la conservation du patrimoine culturel dans une diversité de disciplines.
+
+Ce guide s’inscrit donc à l’intersection des besoins locaux et des réflexions internationales, et entend contribuer à une culture élargie de l’ouverture, de l’expérimentation et de l’entraide dans la sauvegarde du patrimoine audiovisuel numérique.
+
+États des lieux : état actuel de la préservation des archives audiovisuelles numériques
+
+3.1 Cinémathèque québécoise (CQ)
+
+3.1.1 Infrastructure existante
+
+La Cinémathèque québécoise (CQ) occupe une place centrale dans la préservation et la valorisation du patrimoine audiovisuel québécois. Reconnue pour l’ampleur de ses collections de films, de vidéos et de documents médiatiques, la CQ fait à la fois office d’archive, de milieu de recherche, de diffusion publique et de formation professionnelle dans le domaine du cinéma. Ses installations, situées au centre-ville de Montréal, comprennent des espaces de projection à la fine pointe, des chambres fortes à climat contrôlé, ainsi que des laboratoires spécialisés pour la conservation, la numérisation et la restauration de supports audiovisuels.
+
+En 2024, grâce au soutien de l’initiative Programme d'Aide aux Musées (PAM), la CQ a créé un nouveau poste de Chargé·e de documentation des processus afin de renforcer ses capacités de documentation et d’optimisation des chaînes de préservation numérique. Ce poste a été mis en place parallèlement à l’acquisition d’une station de travail audiovisuelle dédiée : un Mac Studio muni d’un processeur M3 Ultra et doté de deux moniteurs 4K de 27 pouces. Cet équipement performant permet l’ingest, le transcodage, le rendu et l’analyse rapide d’une large gamme de formats, qu’ils soient contemporains ou patrimoniaux, et soutient à la fois les opérations courantes et l’expérimentation de nouveaux processus. Un inventaire détaillé du matériel et des ressources techniques figure en annexe.
+
+3.1.2 Pratiques actuelles et défis rencontrés
+
+Le programme de préservation numérique de la CQ fonctionne sous la direction de la Responsable de production et préservation numérique et de la Directrice de la préservation et du développement des collections, assurant une supervision à la fois technique et scientifique. Le·la Chargé·e de documentation des processus collabore avec les équipes en place pour cartographier, évaluer et améliorer les chaînes institutionnelles d’ingest numérique, de gestion des métadonnées, de normalisation des fichiers et de stockage à long terme.
+
+Si la CQ bénéficie de plusieurs décennies d’expertise dans la conservation du film et de la vidéo analogique, l’institution doit aujourd’hui s’adapter aux nouveaux défis posés par la gestion des matériaux audiovisuels nés numériques. Des procédures formalisées pour l’ingest et la normalisation de fichiers sont en phase de test, et un effort est en cours pour systématiser la documentation des pratiques actuelles. Plusieurs défis persistent toutefois : la présence de formats variés accompagnés de métadonnées incomplètes, ainsi que les contraintes de ressources ralentissent le développement des infrastructures.
+
+À mesure que le projet PAM progresse, la nouvelle infrastructure et le mandat élargi de documentation permettront à la CQ de tester, adapter et formaliser de nouveaux standards pour la préservation audiovisuelle numérique. Ce travail en cours profitera aux collections internes tout en nourrissant l’évolution du secteur et le partage des savoirs au sein de la communauté.
+
+3.2 BAnQ
+
+3.2.1 Infrastructure existante
+
+Bibliothèque et Archives nationales du Québec (BAnQ) est une institution provinciale chargée de préserver et de diffuser le patrimoine publié et archivistique du Québec. Issue d’un processus de regroupement institutionnel (2002 et 2006), BAnQ opère selon un double mandat—bibliothécaire et archivistique—qui complexifie la nature de ses collections numériques et de son infrastructure technique.
+
+L’infrastructure de préservation numérique de BAnQ se distingue par un système intégré d’accès et de conservation, articulé autour du modèle de référence OAIS. Ce modèle soutient à la fois les contenus numérisés et nativement numériques, incluant les publications, les photographies, les périodiques, les actes notariés et les registres de l’état civil. Une seule plateforme publique—BAnQ numérique—agit comme portail d’accès, intégrant des interfaces auparavant cloisonnées dans un système fédéré de recherche et de consultation.
+
+Côté préservation, BAnQ est passée d’un mode de stockage décentralisé (ex. : DVD, serveurs sans sommes de contrôle) à un système structuré intégrant la vérification de checksums, l’encapsulation en paquets conformes à la spécification BagIt, et des couches d’accès adaptées selon le type de contenu. L’architecture permet la coexistence de paquets de conservation et de diffusion, différenciés par des suffixes (_AIP pour l’archivage, _DIP pour l’accès), mais liés par un identifiant UUID commun.
+
+Les flux de travail de numérisation et d’ingestion sont désormais encadrés par une modélisation descriptive et structurelle compatible avec les schémas MARC21 et EAD. Les métadonnées techniques sont extraites à l’aide d’outils tels que JHOVE et Tika, puis conservées au format METS ou JSON. Tous les paquets d’accès et de conservation sont suivis à l’aide de fichiers hiérarchiques en JSON, jouant le rôle de collections d’information archivistique (AIC), ce qui permet un ordonnancement fin et un contrôle de version rigoureux.
+
+3.2.2 Pratiques actuelles et défis rencontrés
+
+BAnQ a accompli des progrès considérables vers un modèle unifié et performant de préservation numérique, notamment en conciliant les exigences de ses branches bibliothécaire et archivistique. Son approche orientée vers l’accès, renforcée par l’intégration à BAnQ numérique, a guidé la mise en place d’une infrastructure en double couche qui favorise à la fois la découvrabilité et le stockage sécurisé à long terme.
+
+Cependant, l’ampleur et la diversité des fonds de BAnQ continuent de poser des défis logistiques et techniques. Par exemple, certains ensembles nativement numériques complexes—comme le dépôt de La Patrie (6 To, 650 000 fichiers)—exigent une réévaluation continue des flux d’ingestion et des processus de validation par checksum. De même, le maintien des liens structurels entre entités intellectuelles profondément imbriquées ou évolutives reste une tâche exigeante, malgré les avancées en automatisation.
+
+Parmi les principaux défis identifiés :
+
+Évolutivité de l’ingestion : Certains ensembles dépassent les 30 Go par paquet, ce qui ralentit l’ingestion et complique la validation des sommes de contrôle.
+
+Cohérence structurelle : La gestion des relations entre paquets de préservation et paquets d’accès dans des fonds retraités nécessite une gouvernance métadonnée robuste.
+
+Diversité des formats : Les acquisitions nativement numériques incluent de nombreux formats non pris en charge ou inconsistants, malgré l’existence de guides internes.
+
+Contenus sensibles : Certains documents archivistiques (ex. : avis d’adoption) nécessitent des traitements de caviardage, impliquant le stockage parallèle des versions originales et éditées.
+
+Malgré ces enjeux, l’implantation d’un modèle informationnel basé sur OAIS, l’utilisation de METS et de BagIt, ainsi que l’attention portée à la granularité intellectuelle placent BAnQ à l’avant-garde de la préservation numérique institutionnelle au Québec. Son modèle repose sur la durabilité, la préparation à l’accès et une architecture modulaire—offrant un exemple prometteur pour d’autres institutions patrimoniales confrontées à des mandats hybrides similaires.
+
+3.3 Musée d’art contemporain de Montréal (MAC)
+
+3.3.1 Infrastructure existante
+
+Le Musée d’art contemporain de Montréal (MAC) est une institution publique majeure dédiée à l’art contemporain. Fondé en 1964, il fut le premier musée canadien exclusivement consacré à ce champ artistique. Financé par des fonds publics et situé dans le Quartier des spectacles à Montréal, le MAC constitue un lieu central pour la collection, l’exposition et l’interprétation de l’art contemporain au Québec et à l’international. Depuis le milieu des années 2010, le musée a fait des initiatives numériques une priorité stratégique, en phase avec le Plan culturel numérique du Québec (PCNQ), afin d’élargir l’accès à ses collections, d’en améliorer la documentation, et d’en soutenir la préservation à long terme.
+
+Sur le plan de l’infrastructure, les efforts de préservation numérique du MAC s’articulent autour d’un vaste projet de numérisation et de gestion des collections, amorcé dans le cadre du PCNQ. Cette initiative comprend la numérisation d’environ 1 500 œuvres de la collection permanente, dont quelque 200 œuvres vidéo et une trentaine d’installations vidéo, ainsi que des documents audiovisuels portant sur des performances, des conférences et des rencontres avec des artistes. Le musée a également entrepris la numérisation et le traitement d’archives d’artistes majeurs, notamment le fonds Paul-Émile Borduas, qui compte près de 10 000 items.
+
+Ces ressources numériques sont progressivement intégrées à une base de données centralisée, appelée à remplacer le système hérité du Centre de documentation audiovisuelle. Ce nouveau système permet de gérer les métadonnées, de faciliter l’accès interne aux contenus, et de rendre consultables les œuvres audiovisuelles ainsi que les documents de publication. Parallèlement, le musée a investi dans la modernisation de son infrastructure TI, incluant des mécanismes de sauvegarde et de réplication, des outils de gestion des droits numériques et de l’équipement de numérisation, afin de soutenir l’expansion de sa collection numérique.
+
+Bien que le MAC ait réalisé des investissements importants en matière de numérisation et de gestion interne des contenus, aucun cadre de préservation numérique formel—tel que le modèle OAIS—n’a été officiellement documenté. De même, il n’existe à ce jour aucune indication confirmant l’usage régulier de schémas de métadonnées comme PBCore ou PREMIS. Les protocoles d’archivage à long terme, les procédures de vérification de fixité et les flux de traitement formalisés ne sont pas non plus publiés. Ainsi, l’infrastructure actuelle du MAC soutient l’accès et la numérisation, mais la mise en place d’un véritable système de préservation numérique reste à confirmer.
+
+3.3.2 Pratiques actuelles et défis rencontrés
+
+La pratique actuelle du MAC en matière de préservation numérique repose en grande partie sur sa participation à des initiatives provinciales et sur des projets internes orientés vers la numérisation et l’accès aux collections. Le système de gestion des collections constitue le nœud central de stockage des objets numériques et de leurs métadonnées descriptives. Les priorités de numérisation du musée s’inscrivent dans une double logique : préserver les œuvres tout en soutenant leur usage éducatif. La stratégie numérique du MAC met un accent particulier sur la visibilité de ses collections à travers différentes plateformes, notamment son site web, des répertoires culturels provinciaux et des microsites pédagogiques.
+
+Ceci dit, plusieurs défis demeurent. L’intégration des œuvres audiovisuelles nées numériques—telles que les œuvres web et les installations complexes—dans des chaînes de préservation à long terme est peu développée dans la documentation disponible. Les pratiques métadonnées ont été actualisées pour favoriser l’accès aux collections, mais il reste incertain si des métadonnées techniques ou de préservation sont systématiquement capturées pour les œuvres médiatiques complexes. De même, bien que les contenus numérisés soient intégrés à la base de données, l’absence de documentation sur les procédures d’ingestion, la normalisation des fichiers ou les vérifications de fixité suggère des lacunes en matière de protocoles de préservation.
+
+3.4 Société des arts technologiques (SAT)
+
+3.4.1 Infrastructure existante
+
+La Société des arts technologiques (SAT) est un centre d’art numérique à but non lucratif, basé à Montréal, fondé en 1996 et reconnu internationalement pour ses travaux pionniers en matière d’expériences artistiques immersives, collectives et interactives. Les activités de la SAT s’appuient sur une infrastructure physique unique, comprenant notamment la Satosphère—un dôme permanent à 360 degrés dédié aux présentations audiovisuelles immersives—ainsi qu’un laboratoire de recherche numérique, des espaces de résidence pour artistes et des lieux polyvalents pour événements. L’infrastructure technique de l’organisation repose sur un système informatique centralisé, géré par une équipe interne, offrant une capacité de serveurs, un stockage local et des services de sauvegarde de base. La sécurité du réseau et la fiabilité des systèmes sont supervisées par un administrateur réseau, tandis que les technicien·ne·s en audiovisuel assurent la conversion, l’intégration et la documentation des contenus liés aux projets internes comme aux collaborations externes.
+
+L’engagement de la SAT envers la culture open source se manifeste dans le développement de plus de cinquante outils logiciels libres, dont certains facilitent des aspects de la création, de la gestion ou de la diffusion numériques. L’organisation maintient également une base de données construite sous Drupal, qui recensait, en avril 2024, plus de 2 000 objets d’archives—affiches, dépliants, livres, objets physiques, œuvres audiovisuelles et documents liés aux événements—couvrant plus de vingt-cinq années d’activité. En regard de l’avenir, la SAT a formulé une vision stratégique : établir un Centre de préservation du patrimoine culturel numérique. Cette vision est appuyée par un plan informatique triennal, dont le lancement est prévu en 2026, visant à mettre en place une infrastructure de préservation numérique de niveau professionnel et à obtenir la certification d’archives numériques de BAnQ. Toutefois, à la mi-2025, la SAT ne dispose pas encore d’un système de préservation conforme au modèle OAIS, ni de protocoles formalisés pour l’ingestion évolutive, l’archivage à long terme ou la reprise après sinistre. On observe également l’absence de pratiques normalisées en matière de conditionnement, de standardisation des formats ou de politique documentaire en préservation, ce qui témoigne du caractère transitoire de l’infrastructure actuelle de la SAT alors qu’elle se prépare à renforcer ses capacités.
+
+3.4.2 Pratiques actuelles et défis rencontrés
+
+Les pratiques archivistiques actuelles de la SAT se caractérisent par leur souplesse et leur esprit d’expérimentation, mais aussi par un manque de formalisation. Les flux de travail sont gérés par une petite équipe centrale intégrée au département de production, avec la contribution ponctuelle de personnel en TI, en audiovisuel et en recherche selon les besoins. La documentation au niveau des objets est en cours dans la base de données Drupal, avec la saisie de données descriptives de base pour une grande diversité de matériaux—des œuvres audiovisuelles et installations immersives au code source et aux traces d’événements. L’ingestion et la migration des fichiers sont effectuées de manière ponctuelle par les technicien·ne·s en audiovisuel, généralement en réponse à des besoins immédiats de production ou de diffusion. 
+
+Si l’approche de la SAT bénéficie de sa culture interdisciplinaire et de son ouverture à l’innovation technique, elle souffre actuellement d’un manque de gestion systématique des métadonnées, sans adoption des normes reconnues telles que PBCore ou PREMIS. Les actions de préservation—sauvegarde, vérification des fichiers, documentation des interventions—sont réalisées selon les ressources disponibles, sans automatisation des processus ni vérification régulière de la fixité.
+
+3.5 Observations croisées entre institutions
+ (à compléter)
+
+Études de cas
+
+4.1 Étude de cas 1 – Cinémathèque québécoise (CQ)
+
+4.1.1 Contexte et enjeu
+
+Reçu le 12 mai 2023 par la Cinémathèque québécoise, le fonds Épopée documente les mobilisations étudiantes et la grève sociale qu’elles ont catalysée au printemps 2012. Il rassemble des centaines d’heures de vidéos captées par des vidéastes indépendants avec une gamme d’appareils grand public (téléphones, petites caméras numériques), prosumer et professionnels (DSLR, GoPro, caméscopes, etc.). Corpus précieux sur les plans documentaire et symbolique, il met en lumière la diversité des formats caméra originaux du début des années 2010 et les défis qu’ils posent pour le traitement et la préservation à long terme.
+
+4.1.2 Objectifs et contraintes
+
+Vers 2012, les caméras numériques produisaient des vidéos dans une grande variété de formats de fichiers, chacun doté de caractéristiques techniques et de métadonnées particulières. Ces formats utilisaient principalement une compression avec perte, surtout la compression interframe (Long-GOP) H.264 ou MPEG-2, entraînant une dégradation de la qualité lors de ré-encodages successifs. Beaucoup souffraient aussi de métadonnées limitées ou propriétaires, d’arbres de répertoires complexes et d’une dépendance à du matériel ou des logiciels spécifiques.
+
+Pour la préservation numérique, les principaux défis sont : atténuer la perte de qualité due à la compression avec perte, gérer l’obsolescence des formats et des codecs propriétaires, traiter des structures de fichiers complexes, résoudre les problèmes de timecode et de synchronisation, assurer l’accessibilité à long terme, et faire face à l’augmentation significative des besoins de stockage pour les masters de préservation.
+
+4.1.3 Protocole ou solution développée
+
+Les pratiques exemplaires pour répondre à ces défis comprennent :
+Ingestion bit par bit : capturer l’intégralité de la structure originale (ex. : utiliser BagIt pour les médias fichiers, ou FireWire pour les supports sur bande).
+
+Normalisation : convertir les originaux vers des formats ouverts, sans perte et largement compatibles, principalement en utilisant le conteneur Matroska (MKV) avec le codec FFV1, ou, dans certains cas, JPEG2000 dans MXF.
+
+Capture exhaustive des métadonnées : extraire et conserver toutes les métadonnées techniques, descriptives et structurelles.
+
+Stratégies de stockage robustes : vérifier les checksums et effectuer des migrations périodiques.
+
+Des outils comme MediaConch, ainsi que les lignes directrices de la Library of Congress, aident à valider et à gérer ces efforts de préservation.
+
+4.1.4 Mise en œuvre et résultats
+
+En adoptant ces stratégies, les archives peuvent transformer des originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques.
+Le traitement du fonds Épopée a permis d’affiner des critères de décision, de tester des outils en situation réelle et d’éclairer les arbitrages concrets qui façonnent une stratégie de préservation durable. Ce traitement sert ainsi de première étude de cas dans le cadre du projet PAM à la Cinémathèque québécoise.
+
+4.1.5 Leçons tirées
+
+Préserver avec succès les vidéos nées numériques de l’ère 2012 exige une approche stratégique qui reconnaît les particularités techniques des formats originaux. En capturant minutieusement le flux binaire et les métadonnées associées, en normalisant vers des formats ouverts et robustes, et en mettant en œuvre des pratiques innovantes de stockage et de documentation, les archives peuvent garantir l’accessibilité et l’authenticité à long terme de ce patrimoine culturel important.
+
+4.2 Étude de cas 2 – Cinémathèque québécoise (CQ)
+
+(a completer)
+
+4.3 Étude de cas 3 – BAnQ
+
+4.3.1 Contexte et enjeux
+
+En 2019, Bibliothèque et Archives nationales du Québec (BAnQ) a reçu un important don d’archives du Groupe Cossette Communication, un acteur de premier plan dans l’industrie publicitaire canadienne. Ce fonds se distingue tant par son ampleur que par sa composition hybride, comprenant des documents analogiques, textuels, iconographiques, audiovisuels et numériques. Parmi les éléments les plus substantiels figuraient 25 mètres linéaires de documents textuels, plus de 23 000 documents photographiques, environ 1 000 supports audiovisuels, un disque dur et un ensemble de 6 297 disques optiques (CD et DVD). À partir de ces disques, 1,5 million de fichiers numériques ont été extraits.
+
+L’absence de schéma de production unifié ou de système de métadonnées centralisées, combinée au fait qu’il s’agissait d’un type de don inédit pour BAnQ, a posé des défis immédiats en matière de tri, d’évaluation et de préservation. Les fichiers consistaient principalement en livrables finaux — publicités et matériaux de campagne — offrant peu d’informations sur les processus créatifs ou techniques qui les sous-tendaient. La complexité s’est accrue du fait de la provenance multisite des documents : plusieurs bureaux de Cossette ont contribué au don, chacun avec ses propres méthodes de travail, règles de désignation et structures de fichier.
+
+4.3.2 Objectifs et contraintes
+
+BAnQ a défini une série d’objectifs visant à reprendre le contrôle intellectuel et technique sur la collection. Il s’agissait notamment d’assurer l’extraction sécurisée et l’inventaire des fichiers numériques, d’effectuer une évaluation sélective pour réduire le volume tout en conservant des éléments représentatifs, de maintenir la traçabilité entre les objets numériques et leurs supports physiques, et de répondre aux attentes du donateur en matière d’accessibilité, de confidentialité et d’évaluation financière.
+
+Le projet était contraint par plusieurs facteurs matériels et contextuels. Sur le plan technique, l’extraction des données à partir de supports optiques vieillissants s’est révélée lente et délicate, des formats hérités compliquant encore l’accès et l’interprétation. La pandémie de COVID-19 a par ailleurs perturbé les opérations physiques, retardant la manipulation des disques et la collaboration en personne. Sur le plan intellectuel, l’absence d’une architecture de fichiers cohérente ou de documentation contextuelle a nécessité une approche interprétative au cas par cas. Dans certains cas, des restrictions d’accès imposées par le donateur ont limité les possibilités de diffusion ou de description.
+
+4.3.3 Protocole ou solution développée
+
+Pour y répondre, BAnQ a adopté une méthodologie collaborative et itérative, fondée sur l’expérimentation et le développement des compétences internes. Dès le départ, le personnel a mis en place des chaînes de traitement automatisées pour l’extraction des fichiers, la vérification des checksums, la validation des formats et la capture des métadonnées. Un système robotisé de nettoyage a été intégré afin d’accélérer et de normaliser le traitement des disques. Des scripts personnalisés ont été conçus pour signaler les redondances, identifier les fichiers corrompus et diagnostiquer les anomalies structurelles telles que des longueurs de chemin excessives ou une imbrication trop profonde des dossiers.
+
+Un inventaire des formats a été compilé, et des critères de tri ont été définis pour évaluer la complétude, la cohérence et la valeur potentielle pour la recherche. Ces étapes ont été appuyées par des arbres décisionnels, des protocoles de documentation et des mécanismes de gestion des versions. Le travail a été mené par une équipe interdisciplinaire rassemblant les services du traitement archivistique, de la numérisation et des technologies de l’information, favorisant ainsi une culture d’échange de savoirs et de résolution collective de problèmes. Les outils et ressources générés dans le cadre de ce projet sont devenus des actifs transférables pour le traitement d’autres collections hybrides.
+
+4.3.4 Mise en œuvre et résultats
+
+Cette approche structurée mais adaptable a produit des résultats concrets. Des dizaines de milliers de fichiers ont été traités, et des réductions significatives de volume numérique ont été obtenues grâce à des évaluations manuelles et automatisées. Une zone du projet, désignée en interne comme le « Projet numérique 18 », comprenait initialement près de 30 000 fichiers totalisant 239 Go de données. À la suite d’un tri ciblé et d’une réorganisation, ce sous-ensemble a été réduit à un corpus cohérent et représentatif.
+
+L’inspection des fichiers et l’analyse du contenu ont permis à l’équipe de prioriser les matériaux présentant une valeur durable, tout en maintenant un enregistrement clair des traitements appliqués. La traçabilité entre les supports physiques et leurs substituts numériques a été préservée grâce à une documentation rigoureuse. L’équipe est également parvenue à intégrer les volets archivistique, technique et financier, assurant la conservation des éléments évalués financièrement selon les obligations légales et institutionnelles.
+
+4.3.5 Leçons tirées
+
+Le traitement du fonds Cossette a offert à BAnQ une occasion déterminante de réviser ses stratégies pour gérer des dons de formats hybrides à grande échelle. L’une des principales leçons retenues est la nécessité de protocoles flexibles alliant expertise humaine et automatisation évolutive. Le projet a mis en lumière l’importance archivistique d’outils développés en interne — tels que les inventaires de formats, les rapports de métadonnées et les arbres décisionnels — permettant à l’institution de s’adapter aux particularités de chaque collection.
+
+Il a également souligné le rôle central de l’évaluation intellectuelle dans la préservation numérique, au-delà des simples conformités techniques. En l’absence de métadonnées structurées ou d’une organisation stable, le travail interprétatif des archivistes demeure essentiel pour reconstruire le sens et la valeur. Les relations avec les donateurs se sont révélées déterminantes, influençant les politiques d’accès, les procédures d’évaluation et les obligations de conservation. Enfin, le projet a réaffirmé l’importance de la coordination interdisciplinaire et de la planification itérative comme fondements d’une pratique archivistique contemporaine.
+
+4.4 Étude de cas 4 – BAnQ
+
+(à compléter)
+
+4.5 Étude de cas 5 – Musée d’art contemporain de Montréal (MAC)
+
+(à compléter)
+
+4.6 Étude de cas 6 – Musée d’art contemporain de Montréal (MAC)
+
+(à compléter)
+
+4.7 Étude de cas 7 – Société des arts technologiques (SAT)
+
+(à compléter)
+
+4.8 Étude de cas 8 – Société des arts technologiques (SAT)
+
+(à compléter)
+
+5. Meilleures pratiques
+
+5.1 Principes généraux de la préservation numérique
+
+(à compléter)
+
+5.2 Formats de fichiers et conteneurs recommandés
+
+(à compléter)
+
+5.3 Normes de métadonnées et de documentation
+
+(à compléter)
+
+5.4 Stratégies de stockage et de redondance
+
+(à compléter)
+
+5.5 Intégrité des fichiers et suivi de la fixité
+
+(à compléter)
+
+5.6 Coordination institutionnelle et transfert des connaissances
+
+(à compléter)
+
+6. Arbre décisionnel
+
+6.1 Comment utiliser cet outil
+
+(à compléter)
+
+6.2 Diagramme de l’arbre décisionnel
+
+(à compléter)
+
+7. Boîte à outils : logiciels et ressources
+
+7.1 Outils libres et open source
+
+(à compléter)
+
+7.2 Solutions commerciales (optionnel)
+
+(à compléter)
+
+7.3 Aide-mémoire : formats et codecs
+
+(à compléter)
+
+7.4 Exemples de flux de travail et de scripts
+
+(à compléter)
+
+8. Références bibliographiques et lectures complémentaires
+
+(à compléter)
+
