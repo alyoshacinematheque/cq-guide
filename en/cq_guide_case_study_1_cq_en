@@ -142,6 +142,8 @@ Conclusion
 
 Successfully preserving 2012-era born-digital video requires a strategic approach that acknowledges the technical idiosyncrasies of the original formats. By meticulously capturing the original bitstream and associated metadata, normalizing to open and robust archival formats like MKV/FFV1, and implementing diligent storage and documentation practices, archives can ensure the long-term accessibility and authenticity of this important cultural heritage. The goal is to turn a pile of potentially 'preservation-unfriendly' files into a consistent set of archival objects that are self-descriptive, fixity-verified, and in formats designed for longevity.
 
+This work requires a nuanced understanding of production conditions, original workflows, and the specific constraints of each type of media. Processing the Épopée collection will allow us to refine decision-making criteria, test tools in real-world situations, and clarify the practical trade-offs that shape a sustainable preservation strategy. This processing will serve as the first case study within the PAM project at the Cinémathèque québécoise. By putting proposed principles and tools to the test in the field, work on the Épopée collection will yield concrete recommendations and help develop practices better suited to the reality of born-digital audiovisual archives.
+
 ---
 Footnotes
 
