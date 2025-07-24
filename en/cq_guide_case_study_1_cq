@@ -1,150 +1,29 @@
-Case Study 1 — Processing the Épopée Collection: Preservation Challenges of Diverse Camera-Original Formats
+4.1 Case Study 1 – Cinémathèque québécoise (CQ)
 
-On 2023-05-12, the Cinémathèque québécoise received the Épopée collection—an extensive audiovisual record of the 2012 student protests and the broader social strike they catalyzed. It brings together hundreds of hours of footage shot by independent videographers on everything from phones and cheap digital cameras to prosumer rigs and professional gear (DSLRs, GoPros, camcorders, etc.). As both document and symbol, the corpus exposes the diversity—and fragility—of early-2010s camera-original formats and the preservation challenges they pose.
+4.1.1 Context and scope
+Received on YYYY/MM/DD, the Épopée collection documents the student mobilizations and the broader social strike they ignited in spring 2012. It comprises hundreds of hours of video shot by independent videographers using a spectrum of devices—consumer (phones, compact digital cameras), prosumer, and professional (DSLRs, GoPros, camcorders, etc.). As a historically and symbolically significant corpus, it highlights the variety of camera-original formats prevalent in the early 2010s and the long-term preservation challenges they present.
 
-Around 2012, digital cameras, from smartphones to professional camcorders, produced video in a diverse array of file formats, each with unique technical characteristics and metadata. These formats primarily employed lossy compression, particularly inter-frame (Long-GOP) H.264 or MPEG-2, leading to quality degradation upon repeated re-encoding. Many formats also suffered from limited or proprietary metadata, complex folder structures, and dependence on specific hardware/software.
+4.1.2 Objectives and constraints
+In 2012, as today, digital cameras produced video in a dizzying range of file formats, each with distinct technical traits and metadata behaviors. Most relied on lossy compression—especially interframe (Long-GOP) H.264 or MPEG-2—which degrades image quality across successive re-encodes. Many formats also suffered from limited or proprietary metadata, complex directory trees, and dependencies on specific hardware or software.
 
-For digital preservation, the key challenges include: mitigating quality loss from lossy compression, addressing format obsolescence and proprietary codecs, managing complex file structures, handling timecode and sync issues, ensuring long-term accessibility, and managing significantly increased storage needs for preservation masters.
+Key preservation challenges include mitigating quality loss from lossy codecs, handling format and codec obsolescence, untangling complex file structures, resolving timecode and sync issues, ensuring long-term access, and addressing the significant storage demands of true preservation masters.
 
-Best practices for addressing these challenges involve:
+4.1.3 Protocols and solutions in development
+To address these issues, CQ is pursuing the following archival practices:
 
-Bit-for-bit ingest: Capturing the entire original media structure (e.g., using BagIt for file-based media, or FireWire for tape-based).
+Dedicated workstation: A purpose-built audiovisual station has been set up for this collection, providing a stable, high-performance environment for ingest, analysis, and transcoding. The full configuration is detailed in the annex.
 
-Normalization: Converting originals to open, lossless, and widely supported archival formats, primarily Matroska (MKV) container with FFV1 codec, or in some cases, JPEG2000 in MXF.[1]
+Bit-level ingest: Capture the complete original directory structure (e.g., using BagIt for file-based media, or FireWire for tape-based sources).
 
-Comprehensive metadata capture: Extracting and retaining all technical, descriptive, and structural metadata.
+Normalization: Migrate originals to open, lossless, widely supported formats—most often Matroska (MKV) with the FFV1 codec, or in some cases JPEG2000 in MXF (to be discussed).
 
-Robust storage strategies: Implementing multiple copies, checksum verification, and periodic migration.
+Comprehensive metadata capture: Extract and retain all technical, descriptive, and structural metadata.
 
-Newer tools like MediaConch, FADGI, and Library of Congress guidelines aid in validating and managing these preservation efforts. By adopting these strategies, archives can transform potentially preservation-unfriendly 2012-era camera originals into robust, accessible, and authentic archival assets.
+By capturing the bitstream and all associated metadata with precision, normalizing to open, robust formats, and piloting innovative practices still under development, we intend to lay the groundwork for durable authenticity and access to this culturally significant collection.
 
-Key Themes and Important Ideas
+4.1.4 Implementation and anticipated results
+Preserving born-digital video from the 2012 era demands a strategic approach attuned to the technical particularities of camera-original formats. With these strategies in place, CQ can transform camera originals—initially ill-suited to preservation—into authentic, accessible, and resilient archival assets. Work on the Épopée collection will allow us to refine decision criteria, test tools under real-world conditions, and surface practical solutions while shaping a sustainable preservation strategy. This is the first case study undertaken as part of CQ’s PAM project.
 
-1. Diversity and Complexity of 2012-Era Formats
+We aim to produce a coherent set of preservation masters in open standards (FFV1/MKV), enriched with complete metadata, packaged as checksum-validated Archival Information Packages (AIPs). The goal is to build a robust technical and contextual documentation layer that can serve as a model for similar collections and facilitate, down the line, the generation of derivatives for public access, exhibition, or research. This case will also provide a live testbed for hardening automation scripts, validation tools (MediaConch, QCTools), and normalization protocols that can be adapted and re-applied across institutional contexts.
 
-In 2012, the landscape of digital video formats was highly fragmented across consumer and professional devices. Each format comprised a wrapper (container) and one or more codecs for video and audio.
-
-Consumer Devices:
-
-Smartphones (iPhone, Android): Predominantly used MP4 or MOV container with H.264/AVC video codec with AAC audio. Common resolutions were up to 1080p at 30 fps, with 8-bit 4:2:0 chroma subsampling and relatively low bitrates (often in the ~10 Mbps range). Older phones might use 3GPP .3gp files with H.263 or baseline H.264 video at lower resolutions.
-
-GoPro and Action Cameras: Employed the MP4 container with H.264 video codec and AAC audio, offering 1080p at 30 fps and 720p at 60 fps at higher bitrates (15-45 Mb/s) especially with Protune mode.
-
-DSLRs (Canon, Nikon, Panasonic): Typically recorded to QuickTime MOV files (for Canon/Nikon) or sometimes AVCHD .MTS (for some Panasonic/Sony models). Codecs were usually H.264/AVC for video and uncompressed PCM for audio. Early DSLRs like Nikon D90 (2008) took a different approach: it recorded Motion-JPEG video in an AVI wrapper (720p24), which was intra-frame but created large files.
-
-Consumer Camcorders:DV: MiniDV tape format (standard-definition) with intraframe compression using DCT, 25 Mb/s fixed rate, in AVI Type-2 or QuickTime MOV with DV codec. It featured uncompressed PCM audio.
-
-HDV: A high-definition extension of DV on tape, using MPEG-2 video encoding at ~25 Mb/s and compressed audio (MPEG-1 Layer II).
-
-AVCHD: A file-based HD format developed by Sony and Panasonic, using H.264 video... with either Dolby AC-3 audio or PCM, in an MPEG-TS (transport stream) wrapped into a Blu-ray-like folder structure.
-
-Professional Devices:
-
-XDCAM (Sony): Used the MXF wrapper on optical media or MP4 for solid-state, employing MPEG-2 HD (e.g., 50 Mb/s (4:2:2) in MXF).
-
-Panasonic P2: Recorded each clip as a set of MXF files (video and audio are separate files, plus XML metadata), using DVCPRO HD (100 Mb/s, intra-frame, 4:2:2 8-bit) and AVC-Intra (100 Mb/s, 10-bit 4:2:2).
-
-ProRes (Apple): A popular intermediate codec adopted by some cameras like the ARRI Alexa camera, recording 1920×1080 10-bit ProRes 422 HQ or 4444 files in a MOV container. It's considered visually lossless intra-frame.
-
-Camera RAW formats (RED, Blackmagic): Highest fidelity but also the most proprietary. Examples include RED’s R3D files (Redcode RAW) encapsulat[ing] compressed Bayer sensor data and CinemaDNG: an open format for raw video (sequence of DNG still frames).
-
-2. Pervasive Lossy Compression and Quality Concerns
-
-Almost all 2012-era camera originals, except true raw or uncompressed, were lossy.
-
-Inter-frame (Long-GOP) Compression: Formats like H.264/AVC (MP4, MOV, AVCHD) and MPEG-2 (HDV, XDCAM) used Long-GOP compression, meaning only key frames are self-contained. This makes them edit-hostile and complicates frame-accurate editing or analysis.
-
-Quality Degradation: Lossy codecs introduce artifacts (blocking, mosquito noise, color subsampling losses) that become more apparent with future processing. Repeated re-encoding would drop quality.
-
-Color Subsampling and Bit Depth: Most consumer devices used 8-bit 4:2:0 color sampling, leading to some loss of color detail. Professional formats introduced higher color fidelity (4:2:2 or RAW) and bit depths (10–12-bit).
-
-Audio Compression: Audio in consumer formats was often lossy-compressed (AAC, AC-3, MPEG Audio), whereas professional formats maintained uncompressed PCM audio for quality.
-
-3. Metadata and Structural Challenges
-
-Many formats presented issues with embedded metadata and complex file structures.
-
-Limited/Proprietary Metadata: DSLRs generally embedded limited metadata in the file. Smartphones might embed orientation metadata (often ignored by players) and GPS geolocation tags. Professional formats like MXF and P2 XML offered extensive metadata but required specific handling.
-
-Complex Folder Structures: Formats like AVCHD or P2 MXF come not as single files but as complex directories with multiple files. Losing the ancillary files (e.g., .CPI, .MPL in AVCHD, or P2's XML) means losing important metadata like exact recording date/time or clip ordering.
-
-File Spanning: GoPros and DSLRs often span recordings across multiple files once reaching 4 GB due to FAT32 card limits. For preservation, archivists should capture the entire set of spanned files and later concatenate or rewrap them.
-
-Timecode Issues: Some born-digital formats do not contain reliable timecodes or have discontinuous timecodes. DSLR clips often just start at 00:00:00.00.
-
-4. Format Obsolescence and Proprietary Risks
-
-Some formats have broad support now (H.264, MPEG-2, DV – all are standardized and widely implemented). However, others are proprietary or tied to single manufacturers (ProRes, Redcode, AVCHD’s specific flavor, etc.).
-
-Proprietary Codecs: If a company does not maintain the codec, future systems might not play them. Apple ProRes relies on Apple’s support and DVCPRO HD is a closed codec from Panasonic.
-
-Lack of Openness: The openness of a format is a key preservation criterion. While H.264 is an ISO/IEC standard, it is patent-encumbered.
-
-Integration Challenges: Already some modern software drops support for tape-based formats or older file structures.
-
-5. Storage and Size Considerations for Preservation
-
-Normalizing to lossless or uncompressed formats file sizes balloon.
-
-Increased Storage Needs: 1 hour of 1080p 8-bit uncompressed 4:2:2 video is ~ 1200 Gb (about 1.2 terabytes), whereas the camera original (H.264 at 35 Mb/s) is ~16 GB. Even lossless FFV1 might "compress" that to ~300–400 GB.
-
-Trade-offs: Archives sometimes compromise by choosing a mezzanine (like 50 Mb/s IMX or 100 Mb/s ProRes) as a “good enough” preservation master to avoid huge files, even though it’s lossy. However, modern guidance (FADGI, LoC, etc.) lean towards truly lossless or at least no further loss.
-
-Preservation Workflow Implications and Strategies
-
-1. Ingest and Identification (Capture the Original Integrity)
-
-Bit-for-bit capture: For file-based media, copying the entire directory structure without alteration is crucial. The preferred method is to create an exact disk image or use BagIt packaging.
-
-BagIt Packaging: BagIt (an IETF standard format) allows bundling files with manifest checksums to ensure integrity. This ensures all the little .CPI, .MPL, etc., are kept with the video and can be verified later.
-
-Tape-based Capture: For DV/HDV, ingest involves capturing the tape output to files via FireWire for lossless transfer (digital clone) to get exact bits from tape.
-
-2. Normalization (File Format Migration for Longevity)
-
-Target Formats: Preservation masters should be in open documentation, wide support, lossless or uncompressed encoding, ability to hold extensive metadata, and no dependency on proprietary systems.
-
-Matroska (MKV) with FFV1: A leading choice today. FFV1 is a lossless video codec that compresses mathematically without loss and has built-in error-checking (CRC) per frame. Matroska container... is open, flexible, and standardized by an open community. This combination meets many preservation needs.
-
-Other Options:Uncompressed: Safest in terms of no generational loss, but results in huge files.
-
-Lossless JPEG 2000 in MXF: This format has historically been used by institutions such as the Library of Congress for preservation purposes. Offers about 2:1 compression on average.
-
-Audio Normalization: Typical normalization is to PCM (uncompressed) in a standard container (WAV or within the Matroska). This prevents future decoding issues or generation loss.
-
-3. Metadata Extraction and Preservation (Context is Key)
-
-Detailed Extraction: Use tools like MediaInfo, ExifTool, FFprobe to output details: codec, format profile, duration, bit rate, resolution, frame rate... audio channels, language tags, creation timestamps, and so on.
-
-Documentation: This information can be stored in a database or as sidecar metadata (e.g., JSON or embedded in the Matroska as tags). It's essential to document what the original was, even if we transcode it.
-
-Orientation Flags: If present, either rotate the image in the new file or carry over an equivalent metadata tag.
-
-4. Digital Preservation Storage and Access
-
-Redundancy and Fixity: Store multiple copies (geographically separated), using error-correcting storage or data tape, and periodically verifying checksums.
-
-Access Copies: Produce lower-bitrate MP4s or similar, for easy streaming as disposable derivations, while retaining the high-quality master.
-
-Preserving Originals vs. Transcoding: While transcoding to standard formats is generally recommended for long-term preservation, retaining the original file as received (as part of the Archival Information Package) is recommended since it contains the original metadata and bitstream.
-
-5. Newer Tools and Standards
-
-MediaConch: Helps ensure files meet certain standards – for instance, verifying that your FFV1/MKV files are valid and conform to known profiles.
-
-FADGI Guidelines and QCTools: Provide extensive guidelines on video digitization and preservation and tools to analyze video files for errors/artifacts.
-
-Resilience Features: Newer formats like FFV1 offer better error resilience than older ones, with features like slices and CRC to mitigate corruption.
-
-IMF (Interoperable Master Format): An emerging standard, particularly for managing multiple versions of audiovisual works. While more relevant to distribution and mastering, it's being considered by archives for preservation of final masters, offering efficiency and avoiding redundancy.
-
-Conclusion
-
-Successfully preserving 2012-era born-digital video requires a strategic approach that acknowledges the technical idiosyncrasies of the original formats. By meticulously capturing the original bitstream and associated metadata, normalizing to open and robust archival formats like MKV/FFV1, and implementing diligent storage and documentation practices, archives can ensure the long-term accessibility and authenticity of this important cultural heritage. The goal is to turn a pile of potentially 'preservation-unfriendly' files into a consistent set of archival objects that are self-descriptive, fixity-verified, and in formats designed for longevity.
-
-This work requires a nuanced understanding of production conditions, original workflows, and the specific constraints of each type of media. Processing the Épopée collection will allow us to refine decision-making criteria, test tools in real-world situations, and clarify the practical trade-offs that shape a sustainable preservation strategy. This processing will serve as the first case study within the PAM project at the Cinémathèque québécoise. By putting proposed principles and tools to the test in the field, work on the Épopée collection will yield concrete recommendations and help develop practices better suited to the reality of born-digital audiovisual archives.
-
----
-Footnotes
-
-[1] These formats are explicitly recommended in the Library of Congress's Recommended Formats Statement for Moving Image Works.
+The findings from this process are presented in detail in Section 5 of this document.
