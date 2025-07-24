@@ -6,11 +6,11 @@ Reçu le AAAA/JJ/MM par la Cinémathèque québécoise, le Fonds Épopée docume
 
 4.1.2 Objectifs et contraintes
 
-En 2012, comme aujourd'hui, les caméras numériques produisaient des vidéos dans une grande variété de formats, chacun doté de caractéristiques techniques et de métadonnées particulières. Ces formats utilisaient presque toujours une compression avec perte, surtout la compression dite 'interframe' (Long-GOP) H.264 ou MPEG-2, qui peuvent entraîner une dégradation de la qualité lors de ré-encodages successifs. Beaucoup souffraient aussi de métadonnées limitées ou propriétaires, d’arbres de répertoires complexes et d’une dépendance à du matériel ou des logiciels spécifiques.
+En 2012, comme aujourd'hui, les caméras numériques produisaient des vidéos dans une grande variété de formats, chacun doté de caractéristiques techniques et de métadonnées particulières. Ces formats utilisaient presque toujours une compression avec perte, surtout la compression dite 'interframe' (Long-GOP) H.264 ou MPEG-2, qui peuvent entraîner une dégradation de la qualité lors de ré-encodages successifs. Beaucoup souffraient aussi de métadonnées limitées ou propriétaires, d’arbres de répertoires complexes ou opaques et d’une dépendance à du matériel ou des logiciels spécifiques.
 
-Pour la préservation numérique, les principaux défis seront : atténuer la perte de qualité due à la compression, gérer l’obsolescence des formats et des codecs propriétaires, traiter des structures de fichiers complexes, résoudre les problèmes de 'timecode' et de synchronisation, assurer l’accessibilité à long terme, et faire face à l’augmentation significative des besoins de stockage pour les fichiers maîtres.
+Pour la préservation numérique, les principaux défis seront : atténuer la perte de qualité due à la compression, gérer l’obsolescence des formats et des codecs propriétaires, traiter des structures de fichiers complexes, résoudre les problèmes de 'timecode' et de synchronisation, assurer l’accessibilité à long terme, et faire face à l’augmentation significative des besoins de stockage qui nécessitent les fichiers maîtres.
 
-4.1.3 Protocoles ou solutions en développement
+4.1.3 Protocoles ou solutions en développement (Éventuellement 'développeés')
 
 Les pratiques archivistiques pour répondre à ces défis comprennent :
 
