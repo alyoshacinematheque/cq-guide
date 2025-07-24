@@ -1,14 +1,17 @@
 4.1 Case Study 1 – Cinémathèque québécoise (CQ)
 
 4.1.1 Context and scope
+
 Received on YYYY/MM/DD, the Épopée collection documents the student mobilizations and the broader social strike they ignited in spring 2012. It comprises hundreds of hours of video shot by independent videographers using a spectrum of devices—consumer (phones, compact digital cameras), prosumer, and professional (DSLRs, GoPros, camcorders, etc.). As a historically and symbolically significant corpus, it highlights the variety of camera-original formats prevalent in the early 2010s and the long-term preservation challenges they present.
 
 4.1.2 Objectives and constraints
+
 In 2012, as today, digital cameras produced video in a dizzying range of file formats, each with distinct technical traits and metadata behaviors. Most relied on lossy compression—especially interframe (Long-GOP) H.264 or MPEG-2—which degrades image quality across successive re-encodes. Many formats also suffered from limited or proprietary metadata, complex directory trees, and dependencies on specific hardware or software.
 
 Key preservation challenges include mitigating quality loss from lossy codecs, handling format and codec obsolescence, untangling complex file structures, resolving timecode and sync issues, ensuring long-term access, and addressing the significant storage demands of true preservation masters.
 
 4.1.3 Protocols and solutions in development
+
 To address these issues, CQ is pursuing the following archival practices:
 
 Dedicated workstation: A purpose-built audiovisual station has been set up for this collection, providing a stable, high-performance environment for ingest, analysis, and transcoding. The full configuration is detailed in the annex.
@@ -22,6 +25,7 @@ Comprehensive metadata capture: Extract and retain all technical, descriptive, a
 By capturing the bitstream and all associated metadata with precision, normalizing to open, robust formats, and piloting innovative practices still under development, we intend to lay the groundwork for durable authenticity and access to this culturally significant collection.
 
 4.1.4 Implementation and anticipated results
+
 Preserving born-digital video from the 2012 era demands a strategic approach attuned to the technical particularities of camera-original formats. With these strategies in place, CQ can transform camera originals—initially ill-suited to preservation—into authentic, accessible, and resilient archival assets. Work on the Épopée collection will allow us to refine decision criteria, test tools under real-world conditions, and surface practical solutions while shaping a sustainable preservation strategy. This is the first case study undertaken as part of CQ’s PAM project.
 
 We aim to produce a coherent set of preservation masters in open standards (FFV1/MKV), enriched with complete metadata, packaged as checksum-validated Archival Information Packages (AIPs). The goal is to build a robust technical and contextual documentation layer that can serve as a model for similar collections and facilitate, down the line, the generation of derivatives for public access, exhibition, or research. This case will also provide a live testbed for hardening automation scripts, validation tools (MediaConch, QCTools), and normalization protocols that can be adapted and re-applied across institutional contexts.
