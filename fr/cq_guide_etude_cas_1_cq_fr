@@ -2,31 +2,30 @@
 
 4.1.1 Contexte et enjeu
 
-Reçu le 12 mai 2023 par la Cinémathèque québécoise, le fonds Épopée documente les mobilisations étudiantes et la grève sociale qu’elles ont catalysée au printemps 2012. Il rassemble des centaines d’heures de vidéos captées par des vidéastes indépendants avec une gamme d’appareils grand public (téléphones, petites caméras numériques), prosumer et professionnels (DSLR, GoPro, caméscopes, etc.). Corpus précieux sur les plans documentaire et symbolique, il met en lumière la diversité des formats caméra originaux du début des années 2010 et les défis qu’ils posent pour le traitement et la préservation à long terme.
+Reçu le AAAA/JJ/MM par la Cinémathèque québécoise, le fonds Épopée documente les mobilisations étudiantes et la grève sociale qu’elles ont catalysée au printemps 2012. Il rassemble des centaines d’heures de vidéos captées par des vidéastes indépendants avec une gamme d’appareils grand-public (téléphones, petites caméras numériques), et professionels (DSLR, GoPro, caméscopes, etc.). Corpus précieux sur les plans documentaire et symbolique, il met en lumière la diversité des formats caméra prévalents de l'époque, et les défis qu’ils posent pour le traitement et la préservation à long terme.
 
 4.1.2 Objectifs et contraintes
 
-En 2012, les caméras numériques produisaient des vidéos dans une grande variété de formats de fichiers, chacun doté de caractéristiques techniques et de métadonnées particulières. Ces formats utilisaient principalement une compression avec perte, surtout la compression interframe (Long-GOP) H.264 ou MPEG-2, entraînant une dégradation de la qualité lors de ré-encodages successifs. Beaucoup souffraient aussi de métadonnées limitées ou propriétaires, d’arbres de répertoires complexes et d’une dépendance à du matériel ou des logiciels spécifiques.
+En 2012, comme aujourd'hui, les caméras numériques produisaient des vidéos dans une grande variété de formats, chacun doté de caractéristiques techniques et de métadonnées particulières. Ces formats utilisaient principalement une compression avec perte, surtout la compression interframe (Long-GOP) H.264 ou MPEG-2, entraînant une dégradation de la qualité lors de ré-encodages successifs. Beaucoup souffraient aussi de métadonnées limitées ou propriétaires, d’arbres de répertoires complexes et d’une dépendance à du matériel ou des logiciels spécifiques.
 
-Pour la préservation numérique, les principaux défis sont : atténuer la perte de qualité due à la compression avec perte, gérer l’obsolescence des formats et des codecs propriétaires, traiter des structures de fichiers complexes, résoudre les problèmes de timecode et de synchronisation, assurer l’accessibilité à long terme, et faire face à l’augmentation significative des besoins de stockage pour les masters de préservation.
+Pour la préservation numérique, les principaux défis seront : atténuer la perte de qualité due à la compression avec perte, gérer l’obsolescence des formats et des codecs propriétaires, traiter des structures de fichiers complexes, résoudre les problèmes de timecode et de synchronisation, assurer l’accessibilité à long terme, et faire face à l’augmentation significative des besoins de stockage pour les fichiers maitres.
 
 4.1.3 Protocoles ou solutions en développement
 
-Les pratiques exemplaires pour répondre à ces défis comprennent :
+Les pratiques archivistiques pour répondre à ces défis comprennent :
+
+La mise-en-place d’un poste de travail dédié : une station de travail audiovisuelle a été configurée spécifiquement pour le traitement de ce fonds, permettant l’ingest, l’analyse et le transcodage dans un environnement stable et performant. La configuration complète de ce poste figure en annexe.
 
 Ingestion bit par bit : capturer l’intégralité de la structure originale (ex. : utiliser BagIt pour les médias fichiers, ou FireWire pour les supports sur bande).
 
-Normalisation : convertir les originaux vers des formats ouverts, sans perte et largement compatibles, principalement en utilisant le conteneur Matroska (MKV) avec le codec FFV1, ou, dans certains cas, JPEG2000 dans MXF.
+Normalisation : convertir les originaux vers des formats ouverts, sans perte et largement compatibles, souvent en utilisant le conteneur Matroska (MKV) avec le codec FFV1, ou, dans certains cas, JPEG2000 dans MXF (à discuter).
 
-Capture exhaustive des métadonnées : extraire et conserver toutes les métadonnées techniques, descriptives et structurelles.
+Capture comprehensive des métadonnées : extraire et conserver toutes les métadonnées techniques, descriptives et structurelles.
 
-Mise en place d’un poste de travail dédié : une station de travail audiovisuelle a été configurée spécifiquement pour le traitement de ce fonds, permettant l’ingest, l’analyse et le transcodage dans un environnement stable et performant. La configuration complète de ce poste figure en annexe.
+En cherchant à capturer avec précision le flux binaire (bitrstream) et les métadonnées associées, à normaliser vers des formats ouverts et robustes, et à déployer des pratiques innovantes actuellement en développement, nous espérons poser les bases d’une accessibilité et d’une authenticité durable pour ce patrimoine culturel essentiel.
 
-4.1.4 Mise en œuvre et résultats anticipés
+4.1.5 Mise en œuvre et résultats anticipés
 
-En adoptant ces stratégies, les archives peuvent transformer des images originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques.
-Le traitement du fonds Épopée va nous permettre d’affiner des critères de décision, de tester des outils en situation réelle et d’éclairer les arbitrages concrets qui façonnent une stratégie de préservation durable. Ce traitement sert ainsi de première étude de cas dans le cadre du projet PAM à la Cinémathèque québécoise.
+Préserver avec succès les vidéos nées numériques de l’ère 2012 exige une approche stratégique, attentive aux particularités techniques des formats originaux. En adoptant ces stratégies, la CQ va pouvoir transformer des images originaux de caméras de l’ère 2012, potentiellement défavorables à la préservation, en actifs archivistiques robustes, accessibles et authentiques. Le traitement du fonds Épopée va nous permettre d’affiner des critères de décision, de tester des outils en situation réelle et d’éclairer les solutions concrets tout en façonnant une stratégie de préservation durable. Ce traitement sert de première étude de cas dans le cadre du projet PAM à la Cinémathèque québécoise. 
 
-4.1.5 Leçons ciblées
-
-Préserver avec succès les vidéos nées numériques de l’ère 2012 exige une approche stratégique, attentive aux particularités techniques des formats originaux. En cherchant à capturer avec précision le flux binaire et les métadonnées associées, à normaliser vers des formats ouverts et robustes, et à déployer des pratiques innovantes actuellement en développement, nous espérons poser les bases d’une accessibilité et d’une authenticité durables pour ce patrimoine culturel essentiel.
+Nous visons notamment la production d’un ensemble cohérent de fichiers maîtres de préservation conformes aux standards ouverts (FFV1/MKV), enrichis de métadonnées complètes, regroupés au sein de paquets d’information archivistique (AIP) validés par checksum. L’objectif est de constituer une documentation technique et contextuelle robuste qui pourra servir de modèle pour le traitement d’autres collections similaires, tout en facilitant à terme la création de dérivés pour l’accès public, l’exposition ou la recherche. Ce cas servira également à tester et consolider des scripts d’automatisation, des outils de validation (MediaConch, QCTools) et des protocoles de normalisation transférables au sein de l’institution.
