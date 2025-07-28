@@ -1,60 +1,60 @@
 Table des matières
-Introduction
+1. Introduction
   1.1 Objectif du guide
   1.2 Contexte du projet et institutions partenaires
-  1.3 Préservation des œuvres audiovisuelles nativement numériques
+  1.3 Préservation des œuvres audiovisuelles nées numériques
   1.4 Aperçu de la méthodologie
 
-Contexte et positionnement du projet
-  2.1 Initiatives nationales et internationales
+2. Contexte et positionnement du projet
+  2.1 Initiatives internationales et nationales
   2.2 Portée de la collaboration actuelle
 
-États des lieux : état actuel de la préservation des archives audiovisuelles numériques
+3. État des lieux : état actuel de la préservation des AV numériques
   3.1 Cinémathèque québécoise (CQ)
-    3.1.1 Infrastructure existante
-    3.1.2 Pratiques actuelles et défis rencontrés
+    3.1.1 Infrastructures existantes
+    3.1.2 Pratiques actuelles et enjeux
   3.2 BAnQ
-    3.2.1 Infrastructure existante
-    3.2.2 Pratiques actuelles et défis rencontrés
+    3.2.1 Infrastructures existantes
+    3.2.2 Pratiques actuelles et enjeux
   3.3 MAC
-    3.3.1 Infrastructure existante
-    3.3.2 Pratiques actuelles et défis rencontrés
+    3.3.1 Infrastructures existantes
+    3.3.2 Pratiques actuelles et enjeux
   3.4 SAT
-    3.4.1 Infrastructure existante
-    3.4.2 Pratiques actuelles et défis rencontrés
-  3.5 Observations croisées entre institutions
+    3.4.1 Infrastructures existantes
+    3.4.2 Pratiques actuelles et enjeux
+  3.5 Constatations transinstitutionnelles
 
-Études de cas
-  Étude de cas 1 – Cinémathèque québécoise (CQ)
-  • Contexte et enjeu
-  • Objectifs et contraintes
-  • Protocole ou solution développée
-  • Mise en œuvre et résultats
-  • Leçons tirées
-  Étude de cas 2 – Cinémathèque québécoise (CQ)
-  Étude de cas 3 – BAnQ
-  Étude de cas 4 – BAnQ
-  Étude de cas 5 – MAC
-  Étude de cas 6 – MAC
-  Étude de cas 7 – SAT
-  Étude de cas 8 – SAT
+4. Études de cas
+  4.1 Étude de cas 1 – Cinémathèque québécoise (CQ)
+    • Contexte et enjeu
+    • Objectifs et contraintes
+    • Protocole ou solution développée
+    • Mise en œuvre et résultats
+    • Leçons apprises
+  4.2 Étude de cas 2 – Cinémathèque québécoise (CQ)
+  4.3 Étude de cas 3 – BAnQ
+  4.4 Étude de cas 4 – BAnQ
+  4.5 Étude de cas 5 – MAC
+  4.6 Étude de cas 6 – MAC
+  4.7 Étude de cas 7 – SAT
+  4.8 Étude de cas 8 – SAT
 
-Meilleures pratiques
-  5.1 Principes généraux de la préservation numérique
-  5.2 Formats de fichiers et conteneurs recommandés
+5. Bonnes pratiques
+  5.1 Panorama des principes de préservation numérique
+  5.2 Formats et conteneurs recommandés
   5.3 Normes de métadonnées et de documentation
   5.4 Stratégies de stockage et de redondance
   5.5 Intégrité des fichiers et suivi de la fixité
-  5.6 Coordination institutionnelle et transfert des connaissances
+  5.6 Coordination institutionnelle et transfert de connaissances
 
-Arbre décisionnel
+6. Arbre décisionnel
   6.1 Comment utiliser cet outil
-  6.2 Diagramme de l’arbre décisionnel
+  6.2 Schéma de l’arbre décisionnel
 
-Boîte à outils : logiciels et ressources
-  7.1 Outils libres et open source
+7. Boîte à outils : outils et ressources
+  7.1 Outils libres
   7.2 Solutions commerciales (optionnel)
-  7.3 Aide-mémoire : formats et codecs
+  7.3 Aide-mémoire des formats et codecs
   7.4 Exemples de flux de travail et de scripts
 
-Références bibliographiques et lectures complémentaires
+8. Références bibliographiques et lectures complémentaires
