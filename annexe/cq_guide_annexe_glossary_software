@@ -1,0 +1,126 @@
+List of Library and Archive Software 
+
+A
+	•	Access to Memory (AtoM) – An open-source, web-based archival description and access application. AtoM supports standards like ISAD(G) and DACS for creating multilingual, multi-repository finding aids ￼. Platforms: Web application (server runs on Linux; accessible via browser). License: Open-source (GPL).
+	•	Arkivum – A commercial digital preservation storage and archiving solution. Arkivum provides a secure, cloud-based SaaS platform to ensure long-term accessibility of digital content (“available, accessible and legible forever”) ￼. Often used in conjunction with other preservation tools, it emphasizes integrity (fixity checks) and format legibility over decades. Platforms: Web (SaaS cloud or on-prem appliances). License: Proprietary.
+	•	ArchivesSpace – An open-source archives information management system for managing archival collection descriptions, accessions, and finding aids ￼. Developed by and for archivists, it supports functions like accessioning, arrangement, description (DACS-compliant), and publication of finding aids ￼. Platforms: Web application (Java backend; typically deployed on Linux or Windows servers, accessed via browser). License: Open-source (ECL v2).
+	•	Archivematica – An open-source digital preservation workflow system that implements the OAIS model for ingesting and preserving digital files. It provides a web-based dashboard to process digital objects from ingest to Archival Information Packages (AIPs) with format identification, validation, and migration tools ￼ ￼. Platforms: Server software (Linux) with web browser interface; integrates with storage backends. License: Open-source (AGPL 3.0).
+	•	Axiell CALM (Archives) – A commercial archival collections management system by Axiell, widely used in archives (especially UK). CALM is designed by archivists for archivists and built on international archival standards (ISAD(G), ISAAR(CPF), EAD, etc.) ￼. It manages descriptions, locations, access requests, and integrates with digital asset management and preservation systems ￼. Platforms: Windows client software (database server can be on Windows). License: Proprietary.
+(Note: Axiell’s ecosystem also includes EMu for museums and Axiell Collections (web-based interface) – all aimed at collection management across archives, museums, and libraries.)
+
+B
+	•	BitCurator – An open-source suite/distro for digital forensics in archives, based on Ubuntu Linux. It integrates tools for disk imaging, file system analysis, metadata extraction, virus scanning, PII detection, and more, helping archives process born-digital media ￼. BitCurator’s environment allows archivists to create forensic disk images and analyze and normalize content while maintaining provenance ￼. Platforms: Linux (Ubuntu-based live OS or VM) ￼. License: Open-source (various, primarily GPL).
+
+C
+	•	CollectiveAccess – An open-source collections management and presentation software for museums and archives. It provides a flexible, web-based platform for cataloging objects and publishing them online. CollectiveAccess is highly configurable, supports custom metadata schemas, and is used by hundreds of institutions ￼. Platforms: Web application (PHP, MySQL – runs on Linux/Windows/Mac stacks). License: Open-source (GPL).
+	•	CollectionSpace – An open-source, web-based collections information management system for museums and heritage collections. It helps manage day-to-day collection workflows (cataloging, inventory, loans, etc.) and is built on a services-oriented architecture ￼. CollectionSpace adheres to museum standards (like SPECTRUM) and is used by galleries, museums, and historical societies ￼. Platforms: Web application (Java, Tomcat; typically Linux server). License: Open-source (ECL).
+	•	CONTENTdm – A digital collection management system (commercial, by OCLC) used to publish and preserve digitized content online. CONTENTdm allows institutions to build customizable websites for images, documents, audio/video, etc., with features like full-text search and IIIF support. It also includes a cloud preservation archive to secure master files for the future ￼. Platforms: Web-based (hosted by OCLC or on-premises server software on Windows/Linux). License: Proprietary (subscription).
+	•	Calm – See Axiell CALM under A. (Calm is often just referred to as “Axiell CALM” – covered above.)
+
+D
+	•	DaVinci Resolve – A commercial video editing and color grading application by Blackmagic Design, included here due to its use in audiovisual archiving and film restoration workflows. Resolve provides high-end color correction, restoration tools (e.g. dirt/dust removal plugins), and supports output to preservation formats. It is widely used by professional film restorers for digitized film and video mastering ￼. Platforms: Windows, macOS, Linux (GUI application). License: Proprietary (free base version and paid Studio version).
+	•	DCP-o-matic – An open-source tool for creating and playing Digital Cinema Packages (DCP). It can convert common video, audio, and subtitle files into the DCP format used in cinemas ￼. DCP-o-matic is used by independent filmmakers and film archives to generate standards-compliant DCPs; it “democratizes” digital cinema by being free and open ￼. It also includes a player for quality-checking DCPs. Platforms: Windows, macOS, Linux. License: Open-source (GPL 2).
+	•	DSpace – An open-source institutional repository platform for managing scholarly and published digital content. DSpace is used by universities and libraries worldwide to preserve and provide access to articles, theses, datasets, and more. It focuses on long-term storage, access, and preservation of digital files, aligning with open access principles ￼. Platforms: Web application (Java, runs on Linux/Windows servers). License: Open-source (BSD).
+	•	DuraCloud – A cloud preservation storage service (by LYRASIS, related to DSpace/DSpaceDirect). DuraCloud isn’t software to install, but a service that uses cloud infrastructure to store multiple copies of content and integrates with tools like Archivematica and DSpace for off-site preservation. Platforms: Web service (cloud). License: Proprietary service (some client tools are open-source).
+
+E
+	•	EPrints – An open-source institutional repository software (developed at University of Southampton) for building open access repositories. EPrints allows institutions to manage research outputs (preprints, papers, etc.) and is compliant with OAI-PMH for metadata harvesting ￼. It was one of the first widely used repository systems and is known for its flexibility. Platforms: Web application (Perl, runs on Linux; Windows possible but uncommon). License: Open-source (GPL).
+	•	ePADD – An open-source tool for email archives developed by Stanford University. ePADD supports archival appraisal, processing, and discovery of email collections using techniques like natural language processing and entity recognition ￼. It helps institutions address privacy screening and metadata extraction in large email archives, and provides mechanisms to deliver email content to researchers in an archive-friendly way ￼. Platforms: Desktop software (Java-based; runs on Windows, Mac, Linux). License: Open-source (Apache 2.0).
+	•	Evergreen ILS – An open-source integrated library system often used by consortia of public libraries. (Included here for completeness in “library software”). Evergreen manages cataloging, circulation, and patron records. Platforms: Web (client interface runs on Windows/Linux; server on Linux). License: Open-source (GPL).
+
+(Other library ILS like Koha are listed under “K”, and Ex Libris Alma under “K” as well, by alphabet.)
+
+F
+	•	Fedora Commons Repository – An open-source digital repository framework (often just called Fedora). Fedora (Flexible Extensible Digital Object Repository Architecture) is not an end-user application but a repository backend that stores digital objects and metadata for libraries/archives ￼. It provides a stable, interoperable storage layer (with versioning, RDF-based metadata, etc.) over which systems like Islandora and Samvera are built. Platforms: Java application (Linux/Windows server). License: Open-source (Apache 2.0).
+	•	FITS (File Information Tool Set) – An open-source file format identification and validation toolkit maintained by Harvard Library. (Combines JHOVE, ExifTool, DROID, etc.). Platforms: Java (cross-platform). Note: Often used inside tools like Archivematica; included for completeness. License: Open-source.
+	•	Fixity and BagIt Tools – Various small utilities (many open-source) like BagIt (Library of Congress spec and tools for packaging files with checksums) and Fixity (by AVP) are used in archives for fixity checking and transfer. Platforms: Cross-platform. License: Open-source (BagIt libs) or free.
+
+(The above are technical tools; many archives rely on them to ensure bit-level preservation of digital files.)
+
+G
+	•	Greenstone – An open-source digital library software from the New Zealand Digital Library Project (University of Waikato) and UNESCO. Greenstone is a suite of tools for building and distributing digital library collections (historical texts, multimedia, etc.) on the web or CD/DVD ￼. It has a multilingual GUI and supports full-text search and various metadata standards. Platforms: Desktop/server (Java-based, runs on Windows, Mac, Linux). License: Open-source (GPL).
+
+H
+	•	Heritrix – An open-source web crawler developed by the Internet Archive for web archiving. (Not an end-user application, but used by national archives and Archive-It for collecting websites.) Heritrix can be mentioned as a backbone tool for capturing web content at scale. Platforms: Java (Linux/Windows). License: Open-source (Apache).
+	•	Hyrax/Samvera – See Samvera under “S”. (Hyrax is a Rails-based repository front-end in the Samvera framework.)
+
+I
+	•	Islandora – An open-source digital repository platform that pairs Drupal (front-end) with Fedora Commons (back-end) for managing and presenting digital collections ￼. Islandora provides an out-of-the-box website for libraries/archives to ingest objects (images, PDFs, audio, etc.), apply metadata, and display them with rich viewers. It’s highly modular, domain-agnostic, and often used for institutional repositories and digital heritage collections ￼. Platforms: Web application (Drupal/PHP, Fedora/Java – typically on Linux). License: Open-source (GPL and others).
+	•	Invenio – An open-source repository software (originated at CERN) used for institutional repositories and research data portals (e.g. Zenodo is built on Invenio). Invenio provides tools for deposit, search, and preservation of publications and data. Platforms: Web (Python, requires Linux). License: Open-source (MIT).
+
+J
+	•	JHOVE – An open-source tool for format validation (part of many digital preservation workflows). JHOVE validates formats like PDFs, TIFFs, JPEG2000, etc., to ensure files conform to standards for long-term preservation. Platforms: Java (cross-platform). License: Open-source (LGPL).
+
+K
+	•	Koha – A widely used open-source Integrated Library System (ILS) for cataloging, circulation, and library patron management. Koha was the first open-source ILS and is used worldwide by public, school, and academic libraries ￼. It offers a web-based staff interface and OPAC. Platforms: Web application (Perl/MySQL; typically on Linux servers, though Windows possible). License: Open-source (GPL).
+	•	KryoFlux – (For archive tech context) A hardware+software solution for imaging legacy floppy disks, often used by digital archives to rescue obsolete media. KryoFlux allows creation of preservation-grade disk images. Platforms: USB hardware + software (Windows/Linux). License: Software is free for non-commercial use.
+
+L
+	•	LOCKSS – An open-source system for digital preservation through distributed replication. “Lots of Copies Keep Stuff Safe” (LOCKSS), from Stanford Libraries, allows libraries to run nodes that web-crawl content (especially subscription e-journals) and collectively ensure multiple copies remain accessible ￼. LOCKSS networks preserve web-published materials by mutual polling and repair if a node’s copy becomes corrupted ￼. It’s especially used for preserving scholarly journals and government documents. Platforms: Java application (often on Linux servers). License: Open-source (BSD-style).
+	•	Libsafe – A commercial digital preservation system by Libnova (Spain). (Notable as an alternative to Preservica/Rosetta). Libsafe handles format migrations, fixity, and policy-driven preservation in compliance with OAIS. Platforms: Web (runs on Linux). License: Proprietary.
+
+M
+	•	Mukurtu CMS – An open-source content management system tailored for Indigenous digital cultural heritage. Mukurtu (MOOK-oo-too) was built with indigenous communities, providing culturally appropriate access controls (e.g., Traditional Knowledge labels) and workflows for managing digital heritage in an ethically-minded way ￼. It allows communities to decide how digital materials are shared and who can view them. Platforms: Web application (PHP/Drupal-based). License: Open-source (GPL).
+	•	MediaInfo & MediaConch – Open-source tools for audiovisual file analysis. MediaInfo reports technical metadata for video/audio files (codecs, duration, etc.), and MediaConch (by MediaArea) validates files against format standards (useful for checking preservation files like Matroska, FFV1). Widely used in AV archives. Platforms: Cross-platform. License: Open-source (BSD/GPL).
+	•	METS and MODS Tools – Not software per se, but standards: METS (Metadata Encoding & Transmission Standard) and PREMIS are XML frameworks widely used in digital archives (often generated by systems like Archivematica) to package metadata and content for preservation ￼. Many preservation systems support exporting/importing METS packages.
+
+O
+	•	Omeka – An open-source web-publishing platform for digital collections and exhibits. Omeka (Classic) allows libraries, archives, and museums to easily create online exhibits with items and metadata (Dublin Core-based) ￼. It is often used by smaller institutions and scholars to showcase digital collections with minimal technical overhead. Omeka is praised for its focus on presentation (it’s lighter weight than full repositories like DSpace) ￼. Platforms: Web application (PHP, runs on LAMP stack). License: Open-source (GPL).
+	•	OpenDCP – An open-source Digital Cinema Package creator. OpenDCP provides a GUI and command-line toolset to convert image sequences (JPEG2000, TIFF) and audio into a DCP format for cinema playback ￼. It supports 2K/4K, 3D, encryption (KDM generation), and is used by independent filmmakers and film archives to create preservation or screening DCPs without expensive software. Platforms: Windows (GUI); command-line may compile on Linux/OSX. License: Open-source.
+	•	OpenRefine – An open-source data cleaning tool (formerly Google Refine) often used in libraries/archives for cleaning up metadata (e.g., correcting OCR errors, normalizing names). Platforms: Cross-platform (Java). License: Open-source (BSD).
+
+P
+	•	PastPerfect Museum Software – A popular collections management system for small museums, archives, and historical societies. PastPerfect (commercial) manages object cataloging, archives, photographs, and even contacts/donors in one package. It is known as one of the most widely used museum CMS, with over 12,000 organizations using it worldwide ￼. Affordable and desktop-based, it has helped many small institutions automate their collection records ￼. (A newer PastPerfect Web Edition offers cloud access.) Platforms: Windows (desktop client; Web Edition is browser-based). License: Proprietary.
+	•	Preservica – A leading commercial digital preservation system (active preservation platform). Preservica provides an end-to-end solution for ingesting digital content, performing format migrations, storing multiple copies (cloud storage), and providing access through a user portal. It emphasizes active preservation, meaning files are proactively converted to newer formats as needed to ensure readability over decades ￼. Preservica is used by national archives, corporations, and universities for long-term digital archiving. Platforms: Cloud-hosted or on-prem (Windows/Linux servers); Web interface. License: Proprietary.
+
+Q
+	•	QCTools (Quality Control Tools) – An open-source toolkit (by BAVC) for analyzing video files. QCTools helps archivists detect errors in digitized video (e.g., signal drop-outs, color issues) through waveform graphs and filters. It’s used to QA preservation video files after digitization. Platforms: Windows, macOS, Linux. License: Open-source (GPL).
+
+R
+	•	Rosetta (Ex Libris) – A commercial digital preservation and asset management system used by national libraries and large institutions. Rosetta manages the ingest, preservation actions (format identification, migration), storage, and access of digital objects. Developed with the National Library of New Zealand, it’s an enterprise solution ensuring long-term accessibility (“manage, preserve, and provide access…in perpetuity” ￼). Often used alongside Alma/Primo in library environments. Platforms: Web application (Java; typically Linux servers). License: Proprietary.
+	•	ResourceSpace – An open-source digital asset management (DAM) system sometimes used by archives/museums for managing digital photographs and media. It offers web-based cataloging, tagging, and retrieval of media assets. Platforms: Web (PHP/MySQL). License: Open-source (BSD).
+	•	Re:discovery Proficio – A commercial collections management system (especially for museums/archaeology, successor to Argus). Similar scope to PastPerfect/TMS for artifact and archival object cataloging. Platforms: Windows (client-server). License: Proprietary.
+
+S
+	•	Samvera (formerly Hydra) – An open-source digital repository framework (community-driven) used to build institutional repositories and DAM systems. Samvera is not a single software product but a suite of components (Fedora Commons for storage, Solr for search, Blacklight for UI, plus Ruby on Rails-based front-ends like Hyrax) ￼. It provides a flexible, modular approach: institutions create their own “Samvera head” application to suit local needs on top of the shared infrastructure ￼. Samvera is used by many libraries for IRs, often enabling features like self-deposit, complex digital object relationships, and robust metadata support. Platforms: Web (Ruby on Rails, requires Linux server typically). License: Open-source (Apache 2.0 and others).
+	•	Scrapbook (Web) – (Honorable mention: Scrapbook or WebRecorder tools for web archiving – see Webrecorder below.)
+	•	ArchivesSpace – See under A. (ArchivesSpace was already listed.)
+
+(Other “S” software: SIARD for database archiving by Swiss Federal Archives, SobekCM digital repository, etc., exist but are less commonly used and omitted for brevity.)
+
+T
+	•	TMS – The Museum System – A high-end commercial museum collections management system by Gallery Systems. TMS is considered one of the world’s leading collection management softwares, used by large museums to handle all facets of collection info: object cataloguing, exhibitions, loans, conservation, media management, etc. ￼. It provides extensive relational databases for objects and integrates with web publishing (via eMuseum) ￼. Platforms: Windows client (with SQL Server database); a newer TMS Collections is web-based. License: Proprietary.
+	•	Tainacan – An open-source WordPress plugin for digital repositories (originating in Brazil) – enables WordPress to be used as a platform for managing and publishing digital cultural collections. Platforms: Web (PHP/WordPress). License: Open-source (GPL).
+	•	Tapas – (Technical, skip…)
+
+U
+
+(No major entries under U – although ArchivesSpace supports EAD exports in UTF-8, etc.)
+
+V
+	•	VRA Core & Cataloging Tools – (VRA Core is a metadata standard for visual resources; mention only if relevant to art image collections.)
+
+(No specific software product under V in this list.)
+
+W
+	•	Webrecorder & Conifer – Webrecorder is a suite of open-source web archiving tools that enable anyone to capture interactive websites and replay them. The project (founded by Rhizome) offers tools like Browsertrix Crawler, ArchiveWeb.page (a browser extension for high-fidelity captures), and ReplayWeb.page (for viewing web archives). Conifer is the hosted service (formerly webrecorder.io) that allows users to create accounts and archive web pages through a browser ￼ ￼. These tools output standard web archive formats (WARC/WACZ) and are notable for making complex web archiving more accessible outside of national archives ￼. Platforms: Web-based (hosted or self-hosted); desktop apps for some tools. License: Open-source (various, e.g., MIT).
+	•	WorldCat and WorldShare – OCLC’s cloud-based library services (WorldShare Management Services) and catalog (WorldCat) are widely used in libraries for cataloging and resource sharing. Platforms: Web. License: Commercial SaaS.
+
+X
+	•	Xena (XML Electronic Normalizing for Archives) – An open-source tool by the National Archives of Australia that aids digital preservation by converting files into open formats (normalization) for long-term readability. For example, it can wrap binary files in XML or convert obsolete formats to XML equivalents. Platforms: Windows, Linux. License: Open-source (GPL).
+
+Y
+
+(No major software under Y.)
+
+Z
+	•	Zotero – Although primarily a research tool (citation manager), Zotero is open-source and sometimes used by archives to collect web content or manage bibliographies in archival research projects. Platforms: Windows, Mac, Linux. License: Open-source (AGPL).
+	•	Archivists’ Toolkit / Archon – (Legacy systems) These were predecessors to ArchivesSpace (open-source archival management tools). They have been mostly superseded by ArchivesSpace, but some institutions still use them.
+	•	CLIR PAWN – (If applicable, etc.)
+
+⸻
+
+Each software above is chosen for its relevance to collections management, digital preservation, digital libraries, or archival processing. Together, they cover the spectrum from managing physical archives (Calm, TMS), managing digital content (Preservica, Archivematica, Samvera), providing access (Omeka, Islandora, CONTENTdm), to specialized tasks like audiovisual preservation (Resolve, QCTools, OpenDCP) and web archiving (Webrecorder). This comprehensive overview should assist in identifying tools for different needs in libraries and archives, whether open-source or commercial, while noting the platforms they operate on and their licensing.
+
+Sources:
+	•	ArchivesSpace overview ￼; Archivematica description ￼; AtoM review ￼; CollectiveAccess info ￼; CollectionSpace intro ￼; CONTENTdm features ￼; Calm software ￼; BitCurator info ￼; Mukurtu description ￼; Omeka description ￼; DCP-o-matic info ￼; DSpace description ￼; EPrints description ￼; ePADD abstract ￼; PastPerfect usage ￼; Preservica marketing ￼; LOCKSS summary ￼; Islandora overview ￼; Samvera (Hydra) overview ￼; TMS description ￼; Webrecorder info ￼; etc. Each citation corresponds to specific lines supporting the statements made above. Please refer to these sources for more detailed information on each software.
